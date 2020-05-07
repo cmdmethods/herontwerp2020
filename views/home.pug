@@ -6,15 +6,15 @@ html(lang="en")
 
     include header.pug
     include nav-categories.pug
-    
+
     - var cat = category
     if category == 'home'
       - var filter = '*'
-    else 
+    else
       - var filter = category
-      
+
     main(id=cat, data-filter=filter, data-sort-value='id')
-        
+
       div.grid
 
         section.category-description.home.stamp
@@ -34,7 +34,7 @@ html(lang="en")
                   h1 #{card.name}
                 p
                   em #{card.motto}
-                p!= card.why              
+                p!= card.why
             when 'card'
                 section(class=['card', 'grid-item', card.strategy], id=card.id)
                   a(href='/cards/'+card.strategy+'/'+card.id)

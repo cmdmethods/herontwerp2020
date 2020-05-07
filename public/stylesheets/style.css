@@ -17,7 +17,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  background: #f1f1f1;
+  background: #fdfdfd;
   margin: 0;
   /* min-height: 100%; */
   /* display: grid; */
@@ -221,7 +221,7 @@ a {
    =========================================================================== */
 
 body>header {
-  background: #c5daeb;
+  background: #ffffff;
   margin-bottom: 1rem;
   padding: .7rem 1rem;
   position: fixed;
@@ -235,7 +235,7 @@ body>header {
 }
 
 body>header h1 {
-  color: black;
+  color: #25bfed;
   display: inline;
   font-weight: 600;
   margin: 0;
@@ -252,6 +252,7 @@ body>header h2 a:hover {
 
 body>header h2 {
   display: inline;
+    color: #25bfed;
   font-size: 1rem;
   font-weight: 300;
   padding-left: 1rem;
@@ -264,11 +265,15 @@ body>header img {
 }
 
 #favorites-icon a {
-  background-image: url('/images/icon-heart-filled.svg');
+    -webkit-mask-image: url('/images/icon-heart-filled.svg');
+    mask-image: url('/images/icon-heart-filled.svg');
+    background-color: #25bfed;
+    color: #25bfed;
   background-size: 2.4rem;
   background-position: top center;
   background-repeat: no-repeat;
-  padding-top: 2.4rem;
+  padding-top: 2.5rem;
+
 }
 
 #favorites-number {
@@ -441,6 +446,7 @@ body>header img {
 
 .category-description {
   width: 275px;
+    height: 570px;
   border-radius: 1rem;
   margin: 1rem 0;
   padding: 1rem;
@@ -473,6 +479,11 @@ body>header img {
   border-radius: .8rem;
   color: white;
 }
+
+  #alphatical.home {
+       margin-top: 12em;
+    }
+
 .category-description button + button {
   margin-top: .5rem;
 }
@@ -495,11 +506,13 @@ body>header img {
   margin: 0 0 1rem 0;
   padding: 1rem;
   position: relative;
+    transition-duration: 0.3s;
 }
 
 .card:hover {
   filter: drop-shadow(2px 2px 4px #aaa);
-  background: #fdfdfd;
+
+    transform: translateY(-3%);
 }
 
 .overview .card:first-of-type {
