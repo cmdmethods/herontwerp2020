@@ -3,6 +3,8 @@ const app = express()
 const config = require('./config/config.json')
 const jf = require('jsonfile')
 
+const PORT = process.env.PORT || 5000
+
 // routers
 const home  = require('./routes/home')
 const cards = require('./routes/cards')
@@ -43,8 +45,8 @@ jf.readFile(config.jsonfile, function(err, obj) {
   app.cardData = obj
 
   // start server on port 5000
-  app.listen(8006, function () {
-    console.log('************* Server started on port 8006 *************')
+  app.listen(PORT, function () {
+    console.log(`************* Server started on port ${PORT} *************`)
   })
 
 })
