@@ -10,4 +10,6 @@ MIT @ CMD - Amsterdam University of Applied Sciences Amsterdam
 
 # Edits
 
-Test edit
+Test Edit
+
+This is a random edit to show how Git works.
