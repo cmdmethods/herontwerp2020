@@ -1,5 +1,8 @@
 root = true
 
+# Rules apply to all files
+[*]
+
 # Tab indentation
 indent_style = tab
 indent_size = tab
