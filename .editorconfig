@@ -1,0 +1,17 @@
+root = true
+
+# Rules apply to all files
+[*]
+
+# Tab indentation
+indent_style = tab
+indent_size = tab
+
+# Charset
+charset = utf-8
+
+# Whitespace removed from end of lines
+trim_trailing_whitespace = true
+
+# File ends with new line
+insert_final_newline = true
