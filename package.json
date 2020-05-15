@@ -27,11 +27,10 @@
   },
   "homepage": "https://github.com/rouws/cmdmethods#readme",
   "dependencies": {
-    "express": "^4.15.2",
-    "handlebars": "^4.7.6",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
     "jsonfile": "^2.4.0",
     "normalize.css": "^7.0.0",
-    "pug": "^2.0.0-beta11",
     "shuffle-array": "^1.0.1"
   },
   "devDependencies": {
