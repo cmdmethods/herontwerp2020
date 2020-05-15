@@ -1,52 +1,33 @@
-const express = require('express')
-const app = express()
-const config = require('./config/config.json')
-const jf = require('jsonfile')
+const express = require('express');
+const app = express();
+const handlebars = require('express-handlebars');
+const path = require('path');
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 5000;
 
-// routers
-const home  = require('./routes/home')
-const cards = require('./routes/cards')
-const favorites = require('./routes/favorites')
+// Static folders
+app.use(express.static(path.join(__dirname, '/public')));
 
 // view engine setup
-app.set('view engine', 'pug')
-app.set('views', './views')
+app.engine(
+	'handlebars',
+	handlebars({
+		defaultLayout: 'main',
+		layoutsDir: path.join(__dirname, 'views/layouts'),
+	})
+);
 
-// tell express to use static files in dir 'public'
-app.use(express.static('public'))
-// Tell app which routers to use when certain pages are opened
-app.use('/', home)
-app.use('/favorites', favorites)
-app.use('/cards', cards)
+app.set('view engine', 'handlebars');
 
-// handle simple routing requests directly
-app.get('/about', function (req, res) {
-    res.render('about', { })
-})
-app.get('/more-info', function (req, res) {
-    res.render('more-info', { })
-})
+// Routing
 
-// else page not found
-app.get('*', function(req, res){
-  var err = {status: '404', stack: ""}
-  res.render('error', {error: err,
-                        message: "Sorry, can't find this page...",
-                        categories: config.categories})
-})
+app.get('/', (req, res) => {
+	res.render('home', {
+		title: 'CMD Methods',
+	});
+});
 
-
-// read content of cards from json file
-jf.readFile(config.jsonfile, function(err, obj) {
-  if (err) throw err
-  // save carddata in app, so it is available globally
-  app.cardData = obj
-
-  // start server on port 5000
-  app.listen(PORT, function () {
-    console.log(`************* Server started on port ${PORT} *************`)
-  })
-
-})
+// Port
+app.listen(PORT, () => {
+	console.log(`Server is starting on ${PORT}`);
+});
