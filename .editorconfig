@@ -15,3 +15,6 @@ trim_trailing_whitespace = true
 
 # File ends with new line
 insert_final_newline = true
+
+# Quote type
+quote_type = single
