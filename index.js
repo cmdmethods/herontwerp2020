@@ -6,7 +6,7 @@ const path = require('path')
 const PORT = process.env.PORT || 5000
 
 // Static folders
-app.use(express.static('public'))
+app.use(express.static(__dirname + '/public/'))
 
 // view engine setup
 app.engine(
