@@ -7,9 +7,9 @@ searchBar.addEventListener('keyup', function (e) {
 	Array.from(cards).forEach(function (card) {
 		const title = card.firstElementChild.textContent
 		if (title.toLowerCase().indexOf(term) != -1) {
-			card.style.display = 'block'
+			card.classList.add('display-card')
 		} else {
-			card.style.display = 'none'
+			card.classList.add('hide-card')
 		}
 	})
 })
