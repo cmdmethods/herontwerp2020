@@ -2,18 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 :root {
-	--background-card: #ffffff;
-	--font-header-card: 'Open Sans Condensed', sans-serif;
-	--font-body-card: 'Source Sans Pro', sans-serif;
+    --background-card: #ffffff;
+    --font-header-card: 'Open Sans Condensed', sans-serif;
+    --font-body-card: 'Source Sans Pro', sans-serif;
 }
 
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-	margin: 0;
-	padding: 0;
-	background-color: var(--background);
-	color: var(--foreground);
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+    color: var(--foreground);
 }
