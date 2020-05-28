@@ -7,7 +7,6 @@
             <li><category-icon v-for="category in categories" :key="category.id" :title="category.title"></category-icon></li>
             <li><category-icon v-for="category in categories" :key="category.id" :title="category.title"></category-icon></li>
             <li><category-icon v-for="category in categories" :key="category.id" :title="category.title"></category-icon></li>
-            <li><category-icon v-for="category in categories" :key="category.id" :title="category.title"></category-icon></li>
         </ul>
     </div>
 </template>
