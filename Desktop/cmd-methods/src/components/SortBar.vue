@@ -1,12 +1,24 @@
 <template>
     <div class="sort-bar">
         <ul>
-            <li><category-icon v-for="category in categories" :key="category.id" :title="category.title"></category-icon></li>
-            <li><category-icon v-for="category in categories" :key="category.id" :title="category.title"></category-icon></li>
-            <li><category-icon v-for="category in categories" :key="category.id" :title="category.title"></category-icon></li>
-            <li><category-icon v-for="category in categories" :key="category.id" :title="category.title"></category-icon></li>
-            <li><category-icon v-for="category in categories" :key="category.id" :title="category.title"></category-icon></li>
-            <li><category-icon v-for="category in categories" :key="category.id" :title="category.title"></category-icon></li>
+            <li>
+                <button><category-icon v-for="category in categories" :key="category.id" :title="category.title"></category-icon></button>
+            </li>
+            <li>
+                <button><category-icon v-for="category in categories" :key="category.id" :title="category.title"></category-icon></button>
+            </li>
+            <li>
+                <button><category-icon v-for="category in categories" :key="category.id" :title="category.title"></category-icon></button>
+            </li>
+            <li>
+                <button><category-icon v-for="category in categories" :key="category.id" :title="category.title"></category-icon></button>
+            </li>
+            <li>
+                <button><category-icon v-for="category in categories" :key="category.id" :title="category.title"></category-icon></button>
+            </li>
+            <li>
+                <button><category-icon v-for="category in categories" :key="category.id" :title="category.title"></category-icon></button>
+            </li>
         </ul>
     </div>
 </template>
@@ -45,5 +57,11 @@ ul {
     width: 36.76rem;
     height: 5.805rem;
     padding: 0 1.3rem 0 1rem;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
 }
 </style>
