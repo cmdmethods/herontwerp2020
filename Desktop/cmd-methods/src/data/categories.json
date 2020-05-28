@@ -2,7 +2,37 @@
     {
         "id": "library",
         "title": "Library",
-        "text": "Library research is done to explore what is already done and what guidelines and theories exist that could help you further your design. Since the advent of the internet library research is also called desk research. ",
+        "text": "Library research is done to explore what is already done and what guidelines and theories exist that could help you further your design. Since the advent of the internet library research is also called desk research.",
         "image": "src/assets/logo-library.png"
+    },
+    {
+        "id": "field",
+        "title": "Field",
+        "text": "Field research is done to explore the application context. You apply a field strategy to get to know your end users, their needs, desires and limitations as organizational and physical contexts in which they will use your product.",
+        "image": "src/assets/logo-field.png"
+    },
+    {
+        "id": "workshop",
+        "title": "Workshop",
+        "text": "Workshop research is done to explore opportunities. Prototyping, sketching and co-creation activities are all ways to gain insights in what is possible and how things could work.",
+        "image": "src/assets/logo-workshop.png"
+    },
+    {
+        "id": "lab",
+        "title": "Lab",
+        "text": "Lab research is done to test your ideas with the users of your product. You use lab research to learn if things work out the way you intended them.",
+        "image": "src/assets/logo-lab.png"
+    },
+    {
+        "id": "showroom",
+        "title": "Showroom",
+        "text": "Showroom research is done to test your ideas in relation to existing work. Showing your prototype to experts can be a form of showroom research or spelling out how your product is different from the competition.",
+        "image": "src/assets/logo-showroom.png"
+    },
+    {
+        "id": "stepping stones",
+        "title": "Stepping Stones",
+        "text": "Condense your insights into tangible representations that can be re-used in the rest of the project and help to communicate findings to the team and client.",
+        "image": "src/assets/logo-stepping-stones.png"
     }
 ]
