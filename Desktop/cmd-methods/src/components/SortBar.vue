@@ -34,17 +34,17 @@ export default {
     border: 1px solid lightgrey;
     width: 36.76rem;
     height: 5.805rem;
-    margin-left: 1rem;
 }
 
 ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
     margin: 0;
     padding: 0;
     width: 36.76rem;
     height: 5.805rem;
+    padding: 0 1.3rem 0 1rem;
 }
 </style>
