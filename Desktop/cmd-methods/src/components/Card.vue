@@ -1,20 +1,31 @@
 <template>
     <div class="card">
-        <h1 class="header-1-card">{{ title }}</h1>
+        <div class="header-card">
+            <category-icon></category-icon>
+            <h1>{{ title }}</h1>
+        </div>
         <div class="image-container">
             <img src="@/assets/lib-benchmark-creation.png" />
         </div>
-        <h2 class="header-2-card">Why?</h2>
+        <h2>Why?</h2>
         <p>{{ text }}</p>
     </div>
 </template>
 
 <script>
+import Icon from '@/components/Icon.vue'
+
 export default {
     name: 'Card',
+    components: { 'category-icon': Icon },
     props: {
         title: String,
         text: String
+    },
+    computed: {
+        categories() {
+            return categories
+        }
     }
 }
 </script>
@@ -28,10 +39,15 @@ export default {
     border-radius: 0.5rem;
 }
 
-.header-1-card {
+.header-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
     font-family: var(--font-header-card);
     font-size: 1.6875rem;
-    margin: 0.875rem 1.1875rem 0 3rem;
+    margin: 1rem 1.1875rem 0 0rem;
     font-weight: 300;
     white-space: nowrap;
 }
@@ -48,7 +64,7 @@ img {
     max-height: 100%;
 }
 
-.header-2-card {
+h2 {
     font-family: var(--font-body-card);
     font-size: 0.875rem;
     font-weight: normal;
