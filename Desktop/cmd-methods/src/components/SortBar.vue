@@ -41,8 +41,6 @@ export default {
 <style scoped>
 .sort-bar {
     background-color: #ffffff;
-    border-radius: 8px;
-    border: 1px solid lightgrey;
     width: 36.76rem;
     height: 5.805rem;
 }
