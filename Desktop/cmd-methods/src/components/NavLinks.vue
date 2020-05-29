@@ -16,6 +16,7 @@ a {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 0.875rem;
     color: #414144;
+    cursor: pointer;
 }
 
 a:nth-child(2) {
