@@ -6,6 +6,8 @@
         </div>
         <Icon v-for="category in categories" :key="category.id" :title="category.title" />
         <SortBar></SortBar>
+        <NewProjectButton></NewProjectButton>
+        <SearchBar></SearchBar>
     </div>
 </template>
 
@@ -16,10 +18,12 @@ import Card from '@/components/Card.vue'
 import Category from '@/components/Category.vue'
 import Icon from '@/components/Icon.vue'
 import SortBar from '@/components/SortBar.vue'
+import NewProjectButton from '@/components/NewProjectButton.vue'
+import SearchBar from '@/components/SearchBar.vue'
 
 export default {
     name: 'Home',
-    components: { Card, Category, Icon, SortBar },
+    components: { Card, Category, Icon, SortBar, NewProjectButton, SearchBar },
     computed: {
         cards() {
             return cards
