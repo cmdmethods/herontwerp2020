@@ -19,6 +19,7 @@ export default {
     font-weight: 600;
     color: #ffffff;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 span {

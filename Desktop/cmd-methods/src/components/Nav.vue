@@ -24,10 +24,6 @@ export default {
 </script>
 
 <style scoped>
-header {
-    margin-top: 1rem;
-}
-
 nav {
     width: 90rem;
     height: 2.8125rem;
@@ -41,6 +37,7 @@ ul {
     display: flex;
     list-style: none;
     align-items: center;
+    margin: 0 0.9375rem 0 0.9375rem;
 }
 
 .nav-links {

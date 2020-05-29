@@ -15,10 +15,11 @@ export default {
 a {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 0.875rem;
+    color: #414144;
 }
 
 a:nth-child(2) {
     margin: 0 0 0 1.25rem;
-    color: #c4c4c4;
+    color: #545457;
 }
 </style>

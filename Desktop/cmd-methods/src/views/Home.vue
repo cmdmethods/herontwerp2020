@@ -17,11 +17,10 @@ import Card from '@/components/Card.vue'
 import Category from '@/components/Category.vue'
 import Icon from '@/components/Icon.vue'
 import SortBar from '@/components/SortBar.vue'
-import NavBar from '@/components/Nav.vue'
 
 export default {
     name: 'Home',
-    components: { Card, Category, Icon, SortBar, NavBar },
+    components: { Card, Category, Icon, SortBar },
     computed: {
         cards() {
             return cards
