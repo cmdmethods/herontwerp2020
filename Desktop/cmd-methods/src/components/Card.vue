@@ -1,14 +1,16 @@
 <template>
     <div class="card">
-        <div class="header-card">
+        <div class="header-container">
             <category-icon></category-icon>
             <h1>{{ title }}</h1>
         </div>
         <div class="image-container">
             <img src="@/assets/lib-benchmark-creation.png" />
         </div>
-        <h2>Why?</h2>
-        <p>{{ text }}</p>
+        <div class="text-container">
+            <h2>Why?</h2>
+            <p>{{ text }}</p>
+        </div>
     </div>
 </template>
 
@@ -32,6 +34,8 @@ export default {
 
 <style scoped>
 .card {
+    display: flex;
+    flex-direction: column;
     background-color: var(--background-card);
     width: 17.1875rem;
     height: 25.78125rem;
@@ -39,17 +43,21 @@ export default {
     border-radius: 0.5rem;
 }
 
-.header-card {
+.header-container {
     display: flex;
-    justify-content: space-around;
+    margin: 0 0 0 1rem;
+    align-items: center;
+    margin: 0 1.1875rem 0 1.25rem;
+    height: 6rem;
 }
 
 h1 {
     font-family: var(--font-header-card);
     font-size: 1.6875rem;
-    margin: 1rem 1.1875rem 0 0rem;
     font-weight: 300;
     white-space: nowrap;
+    color: #b4d457;
+    margin: 0 0 0.5rem 0;
 }
 
 .image-container {
@@ -69,6 +77,7 @@ h2 {
     font-size: 0.875rem;
     font-weight: normal;
     margin: 0 1.1875rem 0.25rem 1.25rem;
+    color: #b4d457;
 }
 
 p {

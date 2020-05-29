@@ -1,9 +1,9 @@
 [
-	{
-		"id": "benchmark-creation",
-		"title": "Benchmark creation",
-		"text": "Existing products in your niche can be a valuable reference and source of inspiration.",
-		"category": "library",
-		"image": "src/assets/lib-benchmark-creation.png"
-	}
+    {
+        "id": "benchmark-creation",
+        "title": "Benchmark creation",
+        "text": "Existing products in your niche can be a valuable reference and source of inspiration.",
+        "category": "library",
+        "image": "src/assets/lib-benchmark-creation.png"
+    }
 ]
