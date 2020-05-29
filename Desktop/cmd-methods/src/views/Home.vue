@@ -1,12 +1,8 @@
 <template>
     <div class="home">
         <div class="grid">
-            <Card v-for="card in cards" :key="card.id" :title="card.title" :text="card.text" :image="card.image" />
-            <Category v-for="category in categories" :key="category.id" :title="category.title" :text="category.text" :image="category.image" />
+            <MoreInfo v-for="info in info" :key="info.id" :title="info.title" :text="info.text" />
         </div>
-        <Icon v-for="category in categories" :key="category.id" :title="category.title" />
-        <SortBar></SortBar>
-        <NavBar></NavBar>
     </div>
 </template>
 
@@ -17,16 +13,21 @@ import Card from '@/components/Card.vue'
 import Category from '@/components/Category.vue'
 import Icon from '@/components/Icon.vue'
 import SortBar from '@/components/SortBar.vue'
+import MoreInfo from '@/components/MoreInfo.vue'
+import info from '@/data/info.json'
 
 export default {
     name: 'Home',
-    components: { Card, Category, Icon, SortBar },
+    components: { Card, Category, Icon, SortBar, MoreInfo },
     computed: {
         cards() {
             return cards
         },
         categories() {
             return categories
+        },
+        info() {
+            return info
         }
     }
 }
