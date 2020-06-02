@@ -24,6 +24,13 @@ export default {
 </script>
 
 <style scoped>
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: var(--body-background);
+}
+
 nav {
     width: 100%;
     height: 2.8125rem;
