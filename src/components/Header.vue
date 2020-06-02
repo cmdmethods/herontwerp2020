@@ -29,6 +29,7 @@ header {
     top: 0;
     width: 100%;
     background-color: var(--body-background);
+    z-index: 3;
 }
 
 nav {
