@@ -1,8 +1,6 @@
 <template>
     <div class="home">
-        <div class="grid">
-            <CategoryHeader v-for="category in categories" :key="category.id" :title="category.title" />
-        </div>
+        <div class="grid"></div>
     </div>
 </template>
 
