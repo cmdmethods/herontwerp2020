@@ -1,8 +1,38 @@
 [
-    {
-        "id": "library",
-        "title": "Library",
-        "text": "Library research is done to explore what is already done and what guidelines and theories exist that could help you further your design. Since the advent of the internet library research is also called desk research.",
-        "image": "src/assets/logo-library.png"
-    }
+  {
+    "id": "library",
+    "name": "Library",
+    "motto": "Standing on the shoulders of giants",
+    "why": "To ensure <strong>rigor</strong> in your design explore what is already done. Watch what competitors are doing or get an <strong>overview</strong> of existing guidelines, patterns and theories. Sometimes called deskresearch."
+  },
+  {
+    "id": "field",
+    "name": "Field",
+    "motto": "Understand your users",
+    "why": "Explore the application context. You apply a field strategy to get an <strong>overview</strong> of your users, know their needs, desires and limitations so your design is <strong>relevant</strong> to them."
+  },
+  {
+    "id": "lab",
+    "name": "Lab",
+    "motto": "To measure is to know",
+    "why": "Be <strong>certain</strong> your solution works and is <strong>relevant</strong> for the end-user. Will your design work out the way you intended it to?"
+  },
+  {
+    "id": "showroom",
+    "name": "Showroom",
+    "motto": "Know & show your contribution",
+    "why": "Be <strong>certain</strong> your ideas are better than what is already done. Proof the <strong>rigor</strong> of your design by showing it to experts, test against guidelines or decide on its USPs."
+  },
+  {
+    "id": "workshop",
+    "name": "Workshop",
+    "motto": "Seek variation and improvement!",
+    "why": "Explore opportunities. Prototyping, sketching and co-creation activities are all ways to innovate and to gain insights in what is <strong>possible</strong> and how things could work."
+  },
+  {
+    "id": "stepping-stones",
+    "name": "Stepping Stones",
+    "motto": "Condense, communicate, combine",
+    "why": "Condense your insights into <strong>tangible</strong> representations that can be re-used in the rest of the project and help to communicate findings to the team and client."
+  }
 ]
