@@ -1,22 +1,22 @@
 <template>
     <div class="home">
-        <div class="grid"></div>
+        <Header />
+        <div class="grid">
+            <Card v-for="card in cards" :key="card.id" v-bind="card" />
+        </div>
     </div>
 </template>
 
 <script>
 import cards from '@/data/cards.json'
 import categories from '@/data/categories.json'
-import Card from '@/components/Card.vue'
-import CategoryHeader from '@/components/Category.vue'
-import Icon from '@/components/Icon.vue'
-import SortBar from '@/components/SortBar.vue'
-import MoreInfo from '@/components/MoreInfo.vue'
 import info from '@/data/info.json'
+import Header from '@/components/Header.vue'
+import Card from '@/components/Card.vue'
 
 export default {
     name: 'Home',
-    components: { Card, CategoryHeader, Icon, SortBar, MoreInfo },
+    components: { Header, Card },
     computed: {
         cards() {
             return cards

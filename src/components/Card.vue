@@ -2,14 +2,14 @@
     <div class="card">
         <div class="header-container">
             <category-icon></category-icon>
-            <h1>{{ title }}</h1>
+            <h1>{{ name }}</h1>
         </div>
         <div class="image-container">
             <img src="@/assets/lib-benchmark-creation.png" />
         </div>
         <div class="text-container">
             <h2>Why?</h2>
-            <p>{{ text }}</p>
+            <p>{{ description }}</p>
         </div>
     </div>
 </template>
@@ -22,8 +22,8 @@ export default {
     name: 'Card',
     components: { 'category-icon': Icon },
     props: {
-        title: String,
-        text: String
+        name: String,
+        description: String
     },
     computed: {
         categories() {

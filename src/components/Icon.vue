@@ -7,7 +7,7 @@
 
 <script>
 export default {
-    name: 'Category',
+    name: 'Icon',
     props: {
         title: String
     }

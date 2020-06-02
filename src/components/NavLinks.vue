@@ -7,7 +7,7 @@
 
 <script>
 export default {
-    name: 'Navigation links'
+    name: 'NavigationLinks'
 }
 </script>
 

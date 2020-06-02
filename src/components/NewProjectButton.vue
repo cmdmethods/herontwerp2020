@@ -4,7 +4,7 @@
 
 <script>
 export default {
-    name: 'New Project button'
+    name: 'NewProjectButton'
 }
 </script>
 

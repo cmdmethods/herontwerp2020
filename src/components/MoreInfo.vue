@@ -15,7 +15,7 @@
 import info from '@/data/info.json'
 
 export default {
-    name: 'More Info',
+    name: 'MoreInfo',
     props: {
         title: String,
         text: String

@@ -18,7 +18,7 @@ import ProfileIcon from '@/components/ProfileIcon.vue'
 import NavLinks from '@/components/NavLinks.vue'
 
 export default {
-    name: 'Navigation bar',
+    name: 'Header',
     components: { NavLinks, SearchBar, NewProjectButton, ProfileIcon }
 }
 </script>
