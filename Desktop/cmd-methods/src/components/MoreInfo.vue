@@ -67,5 +67,6 @@ a {
     background-color: #676769;
     color: white;
     font-weight: 600;
+    border-radius: 3px;
 }
 </style>

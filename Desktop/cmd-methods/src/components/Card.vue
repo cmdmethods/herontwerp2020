@@ -16,6 +16,7 @@
 
 <script>
 import Icon from '@/components/Icon.vue'
+import categories from '@/data/categories.json'
 
 export default {
     name: 'Card',

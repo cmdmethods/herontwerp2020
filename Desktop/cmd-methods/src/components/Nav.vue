@@ -25,7 +25,7 @@ export default {
 
 <style scoped>
 nav {
-    width: 90rem;
+    width: 100%;
     height: 2.8125rem;
     background-color: #ffffff;
 }
