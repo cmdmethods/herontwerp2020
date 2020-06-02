@@ -1,7 +1,7 @@
 <template>
     <div class="home">
         <div class="grid">
-            <MoreInfo v-for="info in info" :key="info.id" :title="info.title" :text="info.text" />
+            <CategoryHeader v-for="category in categories" :key="category.id" :title="category.title" />
         </div>
     </div>
 </template>
@@ -10,7 +10,7 @@
 import cards from '@/data/cards.json'
 import categories from '@/data/categories.json'
 import Card from '@/components/Card.vue'
-import Category from '@/components/Category.vue'
+import CategoryHeader from '@/components/Category.vue'
 import Icon from '@/components/Icon.vue'
 import SortBar from '@/components/SortBar.vue'
 import MoreInfo from '@/components/MoreInfo.vue'
@@ -18,7 +18,7 @@ import info from '@/data/info.json'
 
 export default {
     name: 'Home',
-    components: { Card, Category, Icon, SortBar, MoreInfo },
+    components: { Card, CategoryHeader, Icon, SortBar, MoreInfo },
     computed: {
         cards() {
             return cards

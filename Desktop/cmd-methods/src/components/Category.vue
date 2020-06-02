@@ -1,21 +1,25 @@
 <template>
     <div class="category">
-        <div class="content-container">
+        <div class="icon-header">
+            <span></span>
             <h1>{{ title }}</h1>
-            <p>{{ text }}</p>
         </div>
-        <div class="image-container">
-            <img src="@/assets/logo-library.png" />
-        </div>
+        <div class="line"></div>
     </div>
 </template>
 
 <script>
+import categories from '@/data/categories.json'
+
 export default {
     name: 'Category',
     props: {
-        title: String,
-        text: String
+        title: String
+    },
+    computed: {
+        categories() {
+            return categories
+        }
     }
 }
 </script>
@@ -23,40 +27,37 @@ export default {
 <style scoped>
 .category {
     display: flex;
-    font-family: var(--font-body-card);
+    width: 69.625rem;
+    height: 5;
+}
+
+.line {
+    border-bottom: 2.5px solid #b4d457;
+    width: 58.6875rem;
+    height: 1.85rem;
+    margin: 0 0 0 0.9375rem;
+}
+
+.icon-header {
+    display: flex;
+    align-items: center;
+    width: 8rem;
+    height: 3.125rem;
+}
+
+.icon-header span {
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
     background-color: #b4d457;
-    color: #ffffff;
-    width: 70.625rem;
-    height: 11.3125rem;
-    padding: 0 0 0 1.875rem;
-    border-radius: 8px;
+    border-radius: 25px;
 }
 
-.content-container {
-    width: 46.75rem;
-    margin: 0;
-    flex-grow: 0.5;
-}
-
-h1 {
-    font-size: 2rem;
-    font-weight: normal;
-    /* margin: 0.875rem 0 0 0; */
-    width: 25%;
-}
-
-p {
-    font-size: 1.125rem;
-    width: 46.75rem;
-    font-style: italic;
-}
-
-.image-container {
-    width: 10.1875rem;
-    align-self: center;
-}
-
-img {
-    width: 100%;
+.icon-header h1 {
+    font-family: var(--font-body-card);
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #b4d457;
+    margin: 0 0 0 0.9375rem;
 }
 </style>
