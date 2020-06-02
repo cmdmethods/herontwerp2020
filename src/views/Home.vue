@@ -34,6 +34,9 @@ export default {
 <style scoped>
 .grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, 18rem);
+    grid-gap: 4em;
+    margin: 4em;
+    justify-content: space-around;
 }
 </style>

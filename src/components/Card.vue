@@ -5,7 +5,7 @@
             <h1>{{ name }}</h1>
         </div>
         <div class="image-container">
-            <img src="@/assets/lib-benchmark-creation.png" />
+            <img :src="`/card-images/${image}`" :alt="name" />
         </div>
         <div class="text-container">
             <h2>Why?</h2>
@@ -23,7 +23,8 @@ export default {
     components: { 'category-icon': Icon },
     props: {
         name: String,
-        description: String
+        description: String,
+        image: String
     },
     computed: {
         categories() {
