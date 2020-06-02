@@ -56,13 +56,14 @@ export default {
 .name {
     font-family: var(--font-header-card);
     font-size: 1.6875rem;
-    line-height: 1;
+    line-height: 1.3;
     font-weight: 300;
     margin-left: 0.2em;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     margin: 0;
+    margin-left: 0.5rem;
 }
 
 img {
