@@ -2,7 +2,7 @@
   {
     "id": "benchmark-creation",
     "name": "Benchmark creation",
-    "description": "Scout for products that are somehow related to your design goal. These could be products that solve the same problem or adopt a similar solution strategy. Create a structured overview of these products for example by clustering them into meaningful categories; creating a landscape of alternatives. Benchmarking may serve as a more extensive and neutral alternative to competitive analysis.",
+    "description": "Existing products in your niche can be a valuable reference and source of inspiration.",
     "category": "library",
     "image": "lib-benchmark-creation.png",
     "info": {
@@ -24,7 +24,7 @@
   {
     "id": "best-good-and-bad-practices",
     "name": "Best, good & bad practices",
-    "description": "Depending on your topic many best, good and bad practices may be available.",
+    "description": "Why invent the wheel again? Incorporating what others have learned is an important practice.",
     "category": "library",
     "image": "lib-best-good-and-bad-practices.png",
     "info": {
@@ -46,7 +46,7 @@
   {
     "id": "competitive-analysis",
     "name": "Competitive Analysis",
-    "description": "Identify the most important competitors and list their offerings. See which of the user needs are unaddressed by the competition. If you can deliver this, you have found your niche. ",
+    "description": "Find a niche or unique selling point competitors are not filling. ",
     "category": "library",
     "image": "lib-competitive-analysis-anim.gif",
     "info": {
@@ -72,7 +72,7 @@
   {
     "id": "design-pattern-search",
     "name": "Design Pattern Search",
-    "description": "Pattern collections are found in online repositories and books focusing on certain topics (such as designing for mobile, or designing for the social web). Look for details about the context in which a pattern works best. Even when you intent to break the pattern, make sure you know what it is and what tensions it resolves for the user.",
+    "description": "Find common solutions for recurring problems and a description of the context in which these solutions work best.",
     "category": "library",
     "image": "lib-design-pattern-search.png",
     "info": {
@@ -98,7 +98,7 @@
   {
     "id": "expert-interview",
     "name": "Expert Interview",
-    "description": "Trace an expert that is willing to talk to you about the problem and arrange an interview with this expert.",
+    "description": "A domain or content expert can put you on track when you enter a new domain or field of expertise. The expert can point out sources, give you a sense of direction or point to common pitfalls. ",
     "category": "library",
     "image": "lib-expert-interview.png",
     "info": {
@@ -125,7 +125,7 @@
   {
     "id": "literature-study",
     "name": "Literature Study",
-    "description": "Make a ‘search plan’; identify relevant keywords. Find and judge your sources. Be sure to determine the relevance and reliability of a source by examining the publication date, the author’s background and whether the author has a commercial interest. Look at the sources of the book or article you found. Within the selected sources, trace references that are interesting, and repeat the search process with keywords you found in the selected texts.",
+    "description": "Find contextual information, guidance and best practices. ",
     "category": "library",
     "image": "lib-literature-study.png",
     "info": {
@@ -154,7 +154,7 @@
   {
     "id": "trend-analysis",
     "name": "Trend analysis",
-    "description": "You can make use of reports of trend watchers who summarize major trends in almost any area. Some trends may be short term (a hype), while others are much more stable over time. Make sense of trends based on their underlying data, for example: consumer behaviour, demographics, technological developments. Relate these trends to your own design challenge. ",
+    "description": "Catch up with novel developments before your competitors do. ",
     "category": "library",
     "image": "lib-trend-analysis.png",
     "info": {
@@ -180,7 +180,7 @@
   {
     "id": "bag-tour",
     "name": "Bag tour",
-    "description": "Ask people to show the content of their bags and let them talk about these objects. The objects reveal a lot of information about someone’s personality, interests and values. You can make notes and pictures of the objects for analysis.",
+    "description": "As a low threshold introduction to the user, which still gives valuable insights, the bag tour asks users to report about themselves based on the content of their bag.",
     "category": "field",
     "image": "field-bag-tour.png",
     "info": {
@@ -202,7 +202,7 @@
   {
     "id": "card-sorting",
     "name": "Card sorting",
-    "description": "Make labels for the main bits of information on your website. Invite users to the workplace and have them organise the labels in a way they find appropriate and have them explain why. Make sure you understand the underlying reasons for their choice.",
+    "description": "Find out what information organisation structures are considered intuitive by users.",
     "category": "field",
     "image": "field-card-sorting.png",
     "info": {
@@ -229,7 +229,7 @@
   {
     "id": "context-mapping",
     "name": "Context mapping",
-    "description": "Users actively participate in the design process from the early stages of design together with designers and stakeholders. A number of exercises allow users to relate to the topic through making things, doing things and talking about it.",
+    "description": "Get an understanding of the context and personal experience of users with a product or service.",
     "category": "field",
     "image": "field-context-mapping.png",
     "info": {
@@ -255,7 +255,7 @@
   {
     "id": "cultural-probes",
     "name": "Cultural probes",
-    "description": "Assemble a cultural probes kit and distribute it to the users. The kit can contain activities, questions and/or assignments that give you insight and inspiration on the topic you are interested in. After a period of time, collect the results and discuss them together with the user.",
+    "description": "Probes can be used to gather inspirational rather than factual information from users. They give insights in peoples lives, values and thoughts.",
     "category": "field",
     "image": "field-cultural-probes.png",
     "info": {
@@ -284,7 +284,7 @@
   {
     "id": "day-in-the-life",
     "name": "Day in the life",
-    "description": "Follow a user throughout a typical day and map his/her activities and interactions.",
+    "description": "Gain insights in the life of your users. To gain empathy, a day in the life could be a useful technique.",
     "category": "field",
     "image": "field-day-in-the-life.png",
     "info": {
@@ -307,7 +307,7 @@
   {
     "id": "diary-study",
     "name": "Diary study",
-    "description": "Ask users to keep a diary over a period of time and report about their personal experience regarding your topic of interest. It’s possible to ask users to report about activities, feelings or frustrations.",
+    "description": "Report detailed information about routines and long-term experience.",
     "category": "field",
     "image": "field-diary-study.png",
     "info": {
@@ -333,7 +333,7 @@
   {
     "id": "fly-on-the-wall",
     "name": "Fly on the wall",
-    "description": "Try to watch people without talking with them. While observing, make notes of peoples activities, interactions and environments.",
+    "description": "Find out how people act in real life by using a non-obtrusive observation technique.",
     "category": "field",
     "image": "field-fly-on-the-wall-anim.gif",
     "info": {
@@ -360,7 +360,7 @@
   {
     "id": "focus-group",
     "name": "Focus group",
-    "description": "A group of five to ten people is invited for a 45 to 90 minutes discussion, which could be centred around a question, topic or a prototype.",
+    "description": "When the topic asks for it, or for efficiency reasons, opinions and experiences can also be gathered through group discussions called focus groups.",
     "category": "field",
     "image": "field-focus-group.png",
     "info": {
@@ -387,7 +387,7 @@
   {
     "id": "interview",
     "name": "Interview",
-    "description": "Invite representative participants, make them feel comfortable and ask questions about your topic of interest, for example product usage.",
+    "description": "It is hard to design for users you do not fully understand. Interviews allow you to understand users better by gathering their opinions, behaviours, goals, attitudes and experiences.",
     "category": "field",
     "image": "field-interview.png",
     "info": {
@@ -415,7 +415,7 @@
   {
     "id": "participant-observation",
     "name": "Participant observation",
-    "description": "You immerse yourself into a group you are interested in and participate in their activities as any member of that group. This way you gain empathy and notice things that group members take for granted.",
+    "description": "Sometimes the best design ideas arise from ‘first hand’ experience with the situation you are designing for; so “be the user”.",
     "category": "field",
     "image": "field-participant-observation.png",
     "info": {
@@ -441,7 +441,7 @@
   {
     "id": "survey",
     "name": "Survey",
-    "description": "A questionnaire is developed and handed to a representative sample of participants through the right channels. A variety of online tools can be used to analyse the responses.",
+    "description": "Collect, mostly quantitative, information from a large sample of your target group.",
     "category": "field",
     "image": "field-survey.png",
     "info": {
@@ -469,7 +469,7 @@
   {
     "id": "a-b-testing",
     "name": "A/B Testing",
-    "description": "In an A/B test the user is confronted with one or two versions of an interactive product. Remote software records metrics for user behaviour. These metrics are compared between the two versions to see which alternative is better. Sometimes more than two alternatives are tested: A/B/X testing.",
+    "description": "A minor change in a design may alter user behaviour in ways that are hard to detect in a usability test. An A/B test allows you to compare real-world user behaviour across different versions of the product.",
     "category": "lab",
     "image": "lab-AB-testing.png",
     "info": {
@@ -495,7 +495,7 @@
   {
     "id": "biometrics",
     "name": "Biometrics",
-    "description": "Using specialist hardware such as eye-tracking equipment, eye-tracking glasses or sensors to measure heartrate, skin conductivity or brain activity, can be used to collect objective measurements of users' engagement with a design.",
+    "description": "To get objective data about users' attention and physical state.",
     "category": "lab",
     "image": "lab-biometrics.png",
     "info": {
@@ -522,7 +522,7 @@
   {
     "id": "field-trial",
     "name": "Field Trial",
-    "description": "Recruit users and ask them to use your device for a period of time. In a field trial, you cannot easily adapt, so preparation is key. Make sure your prototype is robust enough to be used in the field. Make a detailed list of evaluation questions and think about how and when you can measure them (logs, questionnaires, interviews). ",
+    "description": "Participants never act completely naturally in a lab setting, so consider testing your product in the ‘wild’. This can be particularly valuable when real-life disturbances are important for your design, as is the case with mobile apps. ",
     "category": "lab",
     "image": "lab-field-trial.png",
     "info": {
@@ -548,7 +548,7 @@
   {
     "id": "online-analytics",
     "name": "Online analytics",
-    "description": "Analytics software can monitor user behaviour in terms of basic demographics (where do users come from) and onsite behaviour (duration of visits and clicks). By analysing these statistics you can identify weak points in the website, app or online marketing campaign or you can compare them to key performance indicators (KPI's). ",
+    "description": "Gain insights from real usage statistics in order to continue improving a website, app or social media campaign after it is in use, or monitor it’s use for marketing purposes. ",
     "category": "lab",
     "image": "lab-web-analytics.png",
     "info": {
@@ -575,7 +575,7 @@
   {
     "id": "thinking-aloud",
     "name": "Thinking aloud",
-    "description": "Ask users to think aloud (say everything they are thinking) while performing a task in a usability test. As thinking aloud is quite unnatural, you remind users regularly to keep on voicing his/her thoughts. Since children are bad at voicing their thoughts, this technique can only be applied from the early teens on.",
+    "description": "Understand the reasons behind user behaviour, or uncover the mental models of the user in a usability test.",
     "category": "lab",
     "image": "lab-thinking-aloud.png",
     "info": {
@@ -601,7 +601,7 @@
   {
     "id": "usability-testing",
     "name": "Usability Testing",
-    "description": "It is impossible to get the design right in one go, no matter how much experience you have. Ask a small group of users to perform tasks with a (paper) prototype of your solution. Typically users are asked to think aloud so you can grasp what the user is thinking. In a formative user test the goal is to detect as many problems as possible users are encountering using the site. In a summative user test user behaviour is tested against pre-set goals.",
+    "description": "Detect problems users have with your design and correct these before the product goes live. ",
     "category": "lab",
     "image": "lab-usability-testing-anim.gif",
     "info": {
@@ -628,7 +628,7 @@
   {
     "id": "wizard-of-oz",
     "name": "Wizard of Oz",
-    "description": "In a Wizard of Oz study the user is made to believe he works with the real system, while in practice someone ‘behind the screen’ controls the system behaviours. Sometimes temporary software is build to avoid the user detecting the simulation.",
+    "description": "A Wizard of Oz: acting out the systems functionality, can help when a system has not been build yet, but a realistic user test is necessary to drive design. ",
     "category": "lab",
     "image": "lab-wizard-of-oz.png",
     "info": {
@@ -654,7 +654,7 @@
   {
     "id": "co-reflection",
     "name": "Co-reflection",
-    "description": "Set up a meeting with a diverse group of stakeholders in the design process and ask them to discuss your problem, the results of your user research, and early versions of your design or (provocative) prototypes. Jointly decide on design priorities and focus for the rest of your project.",
+    "description": "Involve stakeholders and other experts early in the design process in order to set an innovative direction and to create openness for novel ideas among stakeholders.",
     "category": "showroom",
     "image": "show-co-reflection.png",
     "info": {
@@ -681,7 +681,7 @@
   {
     "id": "expo",
     "name": "Expo",
-    "description": "Organize an exhibition, a portfolio site, a conference, or another way to exhibit your work to a wide range of potential experts. Make sure you collect lots of feedback, for example by organizing a contact moment with the experts for follow up.",
+    "description": "By placing your work in the spotlight, you learn about its value for others in ways you might not expect yourself.",
     "category": "showroom",
     "image": "show-expo.png",
     "info": {
@@ -708,7 +708,7 @@
   {
     "id": "heuristic-evaluation",
     "name": "Heuristic Evaluation",
-    "description": "Usability experts are given detailed instructions or tasks, a set of usability guidelines, and a reporting format. The experts analyse a product for violations of the guidelines and suggest improvements to the product.",
+    "description": "Complementary to user research, or when user research is too costly, a heuristic evaluation can be used to detect and repair usability errors. ",
     "category": "showroom",
     "image": "show-heuristic-evaluation.png",
     "info": {
@@ -735,7 +735,7 @@
   {
     "id": "peer-review",
     "name": "Peer Review",
-    "description": "Organize a group of representative experts and have them look at your work in a structured way. Peer reviews can have formal and less formal forms, but their quality depends on two factors: the right experts and the right instructions for looking at and reporting about your work.",
+    "description": "“With many eye-balls on the code, all bugs are shallow.” Colleagues and experts can help position and improve your work, certainly if it needs to be reused by them.",
     "category": "showroom",
     "image": "show-peer-review.png",
     "info": {
@@ -758,7 +758,7 @@
   {
     "id": "pitch",
     "name": "Pitch",
-    "description": "Prepare a short presentation of maximum 1-3 minutes about your product or business proposition. Practice the pitch on a wide range of experts to collect feedback and improve it.",
+    "description": "Get a grasp on your unique selling points and practice concise communication about them. ",
     "category": "showroom",
     "image": "show-pitch.png",
     "info": {
@@ -781,7 +781,7 @@
   {
     "id": "provocative-prototyping",
     "name": "Provocative Prototyping",
-    "description": "Create a design idea that answers the design brief, but deliberately break or play with existing norms and beliefs about how things are done. Discuss the prototypes early in the design process with stakeholders. ",
+    "description": "Friendly provocation can help uncover hidden values and requirements from your stakeholders.",
     "category": "showroom",
     "image": "show-provocative-prototyping-anim.gif",
     "info": {
@@ -808,7 +808,7 @@
   {
     "id": "quality-review",
     "name": "(Product) Quality Review",
-    "description": "A representative from the client and experts do a walk-through of the final product before it gets released to ensure the quality of the product meets pre-set standards.",
+    "description": "Ensure the product is perfect before it is released to the client or users.",
     "category": "showroom",
     "image": "show-quality-review.png",
     "info": {
@@ -831,7 +831,7 @@
   {
     "id": "usp",
     "name": "USP (Unique Selling Points)",
-    "description": "Make a list of the envisioned benefits of your product and compare them systematically with the competition. ",
+    "description": "In a competitive business situation you need to be able to identify and communicate clearly and concisely what it is that sets you apart.",
     "category": "showroom",
     "image": "show-usp.png",
     "info": {
@@ -853,7 +853,7 @@
   {
     "id": "co-creation",
     "name": "Co-creation",
-    "description": "Organise creative workshops with end users or offer design tools allowing customers to create their own product. Consider adding a contest element in order to motivate participants.",
+    "description": "Gain inspiration from your users by involving them in the design process. It may lead to unexpected and sensible project outcomes.",
     "category": "workshop",
     "image": "work-co-creation.png",
     "info": {
@@ -879,7 +879,7 @@
   {
     "id": "ideation",
     "name": "Ideation",
-    "description": "Bring people together in a workshop in order to spark creativity and use a creative technique to help set a creative mind-set among the participants of the workshop. Many different creative techniques exist to help generate and develop new ideas. You can find these techniques in books and card sets about ideation, like the ones from Thinker Toys or IDEO.",
+    "description": "Generate and develop new ideas.",
     "category": "workshop",
     "image": "work-ideation.png",
     "info": {
@@ -907,7 +907,7 @@
   {
     "id": "morphological-chart",
     "name": "Morphological chart",
-    "description": "Draw a chart that lists all the functions of your product and sketch all the possible solutions per function.",
+    "description": "Generating ideas in a systematic manner.",
     "category": "workshop",
     "image": "work-morphological-chart.png",
     "info": {
@@ -934,7 +934,7 @@
   {
     "id": "proof-of-concept",
     "name": "Proof of Concept",
-    "description": "Create a prototype or demonstration of a single critical aspect of your idea to test if it really offers a good solution to the problem you are solving. You can take different aspects into account, like effectiveness, efficiency, user experience, technical limitations or interaction within the context of the user.",
+    "description": "Demonstrate the desirability or the feasibility of your idea or design. ",
     "category": "workshop",
     "image": "work-poc.png",
     "info": {
@@ -956,7 +956,7 @@
   {
     "id": "prototyping",
     "name": "Prototyping",
-    "description": "Start by determining one, or a few, conceptual, design or technical challenges you wish to tackle in the upcoming prototyping cycle. Determine which kind of prototype is suitable to evaluate the outcome (low-fidelity or high fidelity); for example: paper prototype, digital prototype, or video prototype. Create and evaluate the prototype.",
+    "description": "Develop, evaluate or communicate a concept or design. ",
     "category": "workshop",
     "image": "work-prototyping.png",
     "info": {
@@ -985,7 +985,7 @@
   {
     "id": "scamper",
     "name": "Scamper",
-    "description": "Scamper is an acronym you can use to create variants of your ideas by Selecting, Combining, Adapting, Modifying, Put to different uses, Eliminating and Reversing. Then iterate; so apply these transformations to the variants you created as well.",
+    "description": "When it is hard to develop an initial idea into an elegant solution, a morphological technique such as scamper can help.",
     "category": "workshop",
     "image": "work-scamper.png",
     "info": {
@@ -1010,7 +1010,7 @@
   {
     "id": "sketching",
     "name": "Sketching",
-    "description": "Take a pen and a piece of paper, a notebook, or a digital tool and draw your ideas. When you visualize your ideas, you start to encounter design challenges that are a starting point for more research. The resulting sketches can be used to discuss and develop ideas together with colleagues and stakeholders.",
+    "description": "Explore and communicate forms and ideas.",
     "category": "workshop",
     "image": "work-sketching.png",
     "info": {
@@ -1032,7 +1032,7 @@
   {
     "id": "storytelling",
     "name": "Storytelling ",
-    "description": "Building on insights you gained in previous research, create user stories about the interaction with your envisioned product.",
+    "description": "Make abstract concepts concrete and strengthen the empathy for the user in your team by using storytelling.",
     "category": "workshop",
     "image": "work-storytelling.png",
     "info": {
@@ -1054,7 +1054,7 @@
   {
     "id": "tinkering",
     "name": "Tinkering",
-    "description": "Build to design. Play around with technology such as LEGO, microcontrollers and other things lying around. While you are building and fidgeting you will probably get inspired. Let the material speak!",
+    "description": "Come up with novel idea's based on technical opportunities and affordances.",
     "category": "workshop",
     "image": "work-tinkering.png",
     "info": {
@@ -1078,7 +1078,7 @@
   {
     "id": "business-model-canvas",
     "name": "Business Model Canvas",
-    "description": "The business model canvas consists of several related aspects of a company. The canvas is a quick way to draft and improve a business plan. The key elements describe the market offer, infrastructure, customers, and finances.",
+    "description": "Dream up in a structured and visual way, how a new company can reach its customers and make revenues in order to understand, discuss, create and analyse a business idea.",
     "category": "stepping-stones",
     "image": "step-business-model-canvas.png",
     "info": {
@@ -1096,7 +1096,7 @@
   {
     "id": "concept",
     "name": "Concept",
-    "description": "Usually several concepts are developed during the concept phase. Each concept should describe the whole, not a part. Your concepts can originate for example from ideation sessions, a requirement list or a USP. Describe the concept in a concise manner. A concept should at least describe which problem you are solving, for whom, using what means and what opportunity you are creating.",
+    "description": "When you develop a new product or service, the concept summarizes 'the big idea' or 'the main principle' on which your solution will be based. For example, most traditional churches have a floor plan based on a cross so God can recognize a church from the sky. Validate your concept(s) with stakeholders to determine desirability and feasibility. ",
     "category": "stepping-stones",
     "image": "step-concept.png",
     "info": {
@@ -1113,7 +1113,7 @@
   {
     "id": "comparison-chart",
     "name": "Comparison Chart",
-    "description": "Use desk research to find or compose a table containing information that compares  a number of products or tools. Be sure to determine the priority of the characteristics when making a choice.",
+    "description": "A comparison chart, or comparison table, describes and compares attributes and characteristics of existing products or tools in order to determine the best option for your project.",
     "category": "stepping-stones",
     "image": "step-comparison-chart.png",
     "info": {
@@ -1130,7 +1130,7 @@
   {
     "id": "customer-journey",
     "name": "Customer Journey",
-    "description": "Divide the service into touch points: all points in which the user comes in contact with the company or service in any way. Visualize in a creative way how the user travels across the service, going through a ‘dramatic arc’ of positive and less positive experiences.",
+    "description": "Visualize the user experience of a service over time and across the different interaction moments (touch points) within the service.",
     "category": "stepping-stones",
     "image": "step-customer-journey.png",
     "info": {
@@ -1148,7 +1148,7 @@
   {
     "id": "design-specification",
     "name": "Design Specification",
-    "description": "The design specification contains models of the product and some argumentation for the design choices that have been made. A design specification can consist of user stories, wireframes, flow charts, wireflows, sitemaps, style guides, mock-ups or screen designs, etc. As the number of people involved in the design and development process increases, these documents become more important in order to keep everybody informed about design choices.",
+    "description": "Describe the characteristics of a product, like a website or an application, in order to inform the designers and developers who are involved.",
     "category": "stepping-stones",
     "image": "step-design-specification.png",
     "info": {
@@ -1165,7 +1165,7 @@
   {
     "id": "empathy-map",
     "name": "Empathy Map",
-    "description": "Write down your insights and inferred conclusions about your user on a sheet of paper. Try to describe a typical user, by describing what users say, do, hear, think and feel. Often goals and attitudes (pains &amp; gains) are also included to create a richer description.",
+    "description": "Summarize and synthetize findings from observations and interviews in a structured way. Empathy maps can offer valuable and unexpected insights in the user.",
     "category": "stepping-stones",
     "image": "step-empathy-map.png",
     "info": {
@@ -1182,7 +1182,7 @@
   {
     "id": "expert-review-report",
     "name": "Expert Review Report",
-    "description": " Create a report consisting of who the experts were, how they were instructed to look at the product or idea, for example using heuristics, and what their opinions were. Include a meta review of your own stating what advise you find most pressing and how you intend to follow it up.",
+    "description": "In the early stages of design and open-ended projects, the opinion of experts can be used to give direction and focus to a project. The expert review report communicates the results of an expert review to all stakeholders.",
     "category": "stepping-stones",
     "image": "step-expert-review-report.png",
     "info": {
@@ -1199,7 +1199,7 @@
   {
     "id": "inspiration-wall",
     "name": "Inspiration Wall",
-    "description": "Reserve a large physical space on a wall where you collect all the inspirational ideas for everyone to see and elaborate on. Try to find a place where lots of people pass, for example near the coffee machine. A digital inspiration wall is also possible with tools like Pinterest where you can invite people to share ideas on public as well as private pin boards.",
+    "description": "Save and organize creative ideas during a project, or even permanently, in order to have access to them very quickly and let ideas ‘simmer’ for a while.",
     "category": "stepping-stones",
     "image": "step-inspiration-wall.png",
     "info": {
@@ -1217,7 +1217,7 @@
   {
     "id": "mood-board",
     "name": "Mood Board",
-    "description": "Make a physical or digital collage of images, typography and a colour scheme to describe 'fluffy' stuff such as the ‘mood’, ‘feel’, or other core design concepts you want your product to have. The images are often gathered from magazines or visual discovery tools like Pinterest.",
+    "description": "Before you start to make a design, a mood board can help describe the ‘mood’ or the ‘feel’ of the envisioned product.",
     "category": "stepping-stones",
     "image": "step-moodboard.png",
     "info": {
@@ -1234,7 +1234,7 @@
   {
     "id": "persona",
     "name": "Persona",
-    "description": "A persona can function as an archetype to represent a group of users that would use your product in a similar manner based on their shared features, characteristics, attitudes or goals. Based on research and insights from users, select an interesting segment of the user population and define a persona as a representation. Use insights from observations and interviews to depict a persona based on their needs, wants, expectations, goals, desire & habits, social background, and cultural &amp; demographic characteristics.",
+    "description": "Represent the user in discussions about the design in an elegant way. ",
     "category": "stepping-stones",
     "image": "step-persona.png",
     "info": {
@@ -1252,7 +1252,7 @@
   {
     "id": "prototype",
     "name": "Prototype",
-    "description": "Decide which aspect of the design you want to prototype, what the audience of the prototype is (and what is would want) and on the fidelity. When a prototype is still conceptual and sketchy, it is called low-fidelity prototype. When more details are added, one speaks of a high-fidelity prototype. A large variety of prototypes exist; for example: paper prototype, demo, clickable prototype, video prototype, and provocative prototype.",
+    "description": "Test an early model of your product with users, peers, experts or your client. Test goals can vary from testing the concept, to testing functionality, user experience, content breakdown, usability, or technical feasibility.",
     "category": "stepping-stones",
     "image": "step-prototype.png",
     "info": {
@@ -1271,7 +1271,7 @@
   {
     "id": "requirement-list",
     "name": "Requirement List",
-    "description": "Gather requirements by interviewing and studying (the context of) stakeholders. Determine if requirements are clear and complete. Possibly determine priorities together with stakeholders. Requirements lists could include requirements about: the user, design, context, architecture, technical aspects, performance, etc. Requirements can be written as a list, or in the form of user stories.",
+    "description": "To ensure your design meets all demands, a complete list of requirements can serve as a planning tool and checklist. ",
     "category": "stepping-stones",
     "image": "step-requirements-list.png",
     "info": {
@@ -1288,7 +1288,7 @@
   {
     "id": "risk-analysis",
     "name": "Risk Analysis",
-    "description": "Analyse the project together with a group of experienced people to identify possible threats. Check if safety regulations, laws, or standards are applicable in the context of the project. Beside threats you can also determine opportunities, for example when using a SWOT analysis (Strengths, Weaknesses, Opportunities, Threats).",
+    "description": "Determine which risks are acceptable by making an inventory of the possible threats in a project and determining the probability and impact of each threat. Possibly also determine the effect in, for example, terms of costs. ",
     "category": "stepping-stones",
     "image": "step-risk-analysis.png",
     "info": {
@@ -1305,7 +1305,7 @@
   {
     "id": "scenario",
     "name": "Scenario",
-    "description": "Create narrative or visual stories to illustrate interactions in a specific situation. Depending on your aim you can create the appropriate scenario; for example: context scenario to develop a user requirements list, key path scenario to get an idea for the interaction, validation scenario to test your design idea, etc.",
+    "description": "Different types of scenarios exist that each serves a different purpose, for example to develop user requirements, to generate ideas or to reflect on a concept.",
     "category": "stepping-stones",
     "image": "step-scenario.png",
     "info": {
@@ -1322,7 +1322,7 @@
   {
     "id": "task-analysis",
     "name": "Task Analysis",
-    "description": "Use observations of and interviews of people performing a specific task. Try to determine if there are guidelines for the task. Determine which actions and cognitive processes take place. Analyse your findings to determine a task classification and outcomes, sequencing of tasks and sub-tasks.",
+    "description": "When your product has to support people performing some kind of task (for example repairing a car), a task analysis will help you and other designers understand the task better.",
     "category": "stepping-stones",
     "image": "step-task-analysis.png",
     "info": {
@@ -1340,7 +1340,7 @@
   {
     "id": "test-report",
     "name": "Test Report",
-    "description": "To ensure everybody is informed about the results of a (usability) test and to focus on further development, a test report is invaluable. Start by recalling the test goals. Then state all test results and analyse and prioritize them. Finally draw conclusions about what actions should be taken given the results.",
+    "description": "Describe test results, show the analysis of the results and conclude with lessons learned and recommendations. ",
     "category": "stepping-stones",
     "image": "step-test-report.png",
     "info": {

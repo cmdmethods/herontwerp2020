@@ -7,6 +7,13 @@
     --background-card: #ffffff;
     --font-header-card: 'Open Sans Condensed', sans-serif;
     --font-body-card: 'Source Sans Pro', sans-serif;
+
+    --library: #B4D457;
+    --field: #72CBCC;
+    --lab: #898CC4;
+    --showroom: #FFD74D;
+    --workshop: #5CC7EE;
+    --stepping-stones: #F16E9B;
 }
 
 * {
@@ -17,3 +24,55 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* Color helpers 
+   ========================================================================== */
+
+.bg-library {
+    background-color: var(--library);
+}
+
+.bg-field {
+    background-color: var(--field);
+}
+
+.bg-lab {
+    background-color: var(--lab);
+}
+
+.bg-showroom {
+    background-color: var(--showroom);
+}
+
+.bg-workshop {
+    background-color: var(--workshop);
+}
+
+.bg-stepping-stones {
+    background-color: var(--stepping-stones);
+}
+
+.color-library {
+    color: var(--library);
+}
+
+.color-field {
+    color: var(--field);
+}
+
+.color-lab {
+    color: var(--lab);
+}
+
+.color-showroom {
+    color: var(--showroom);
+}
+
+.color-workshop {
+    color: var(--workshop);
+}
+
+.color-stepping-stones {
+    color: var(--stepping-stones);
+}
+

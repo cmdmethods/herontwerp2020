@@ -1,30 +1,29 @@
 <template>
     <div class="card">
         <div class="header-container">
-            <category-icon></category-icon>
-            <h1>{{ name }}</h1>
+            <CategoryIcon :category="category" />
+            <h1 class="name" :class="`color-${category}`">{{ name }}</h1>
         </div>
-        <div class="image-container">
-            <img :src="`/card-images/${image}`" :alt="name" />
-        </div>
+        <img :src="`/card-images/${image}`" :alt="name" />
         <div class="text-container">
-            <h2>Why?</h2>
+            <h2 :class="`color-${category}`">Why?</h2>
             <p>{{ description }}</p>
         </div>
     </div>
 </template>
 
 <script>
-import Icon from '@/components/Icon.vue'
 import categories from '@/data/categories.json'
+import CategoryIcon from '@/components/CategoryIcon.vue'
 
 export default {
     name: 'Card',
-    components: { 'category-icon': Icon },
+    components: { CategoryIcon },
     props: {
         name: String,
         description: String,
-        image: String
+        image: String,
+        category: String
     },
     computed: {
         categories() {
@@ -39,52 +38,57 @@ export default {
     display: flex;
     flex-direction: column;
     background-color: var(--background-card);
-    width: 17.1875rem;
-    height: 25.78125rem;
+    width: 15rem;
+    height: 23rem;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
     border-radius: 0.5rem;
+    padding: 1rem;
 }
 
 .header-container {
     display: flex;
-    margin: 0 0 0 1rem;
     align-items: center;
-    margin: 0 1.1875rem 0 1.25rem;
-    height: 6rem;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-bottom: 0.5rem;
 }
 
-h1 {
+.name {
     font-family: var(--font-header-card);
     font-size: 1.6875rem;
+    line-height: 1;
     font-weight: 300;
+    margin-left: 0.2em;
     white-space: nowrap;
-    color: #b4d457;
-    margin: 0 0 0.5rem 0;
-}
-
-.image-container {
-    object-fit: cover;
-    width: 16.4375rem;
-    height: 13.875rem;
-    margin: 0.25rem 0.375rem 0 0.375rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
 }
 
 img {
-    max-width: 100%;
-    max-height: 100%;
+    object-fit: contain;
+    width: 100%;
+    height: 10rem;
+}
+
+.text-container {
+    flex-shrink: 0;
 }
 
 h2 {
     font-family: var(--font-body-card);
     font-size: 0.875rem;
     font-weight: normal;
-    margin: 0 1.1875rem 0.25rem 1.25rem;
-    color: #b4d457;
+    margin-bottom: 0;
 }
 
 p {
     font-family: var(--font-body-card);
     font-size: 0.875rem;
-    margin: 0 1.1875rem 0.78125rem 1.25rem;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 </style>
