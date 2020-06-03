@@ -4,9 +4,6 @@
         <div class="more-info-section">
             <MoreInfo v-for="info in info" :key="info.id" :title="info.title" :text="info.text" />
         </div>
-        <div>
-            <Sort v-bind="category" />
-        </div>
         <div class="category" v-for="category in cardsGrouped" :key="category.id">
             <CategoryHeader v-bind="category" />
 
@@ -47,6 +44,8 @@ export default {
 .more-info-section {
     display: flex;
     justify-content: center;
+    margin: 5rem auto;
+    max-width: 70.625rem;
 }
 
 .category {
