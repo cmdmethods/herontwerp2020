@@ -31,7 +31,6 @@ export default {
 <style scoped>
 .more-info-card {
     display: flex;
-    margin-top: 2rem;
     width: 60.875rem;
     height: 20.883125rem;
     background-color: #ffffff;
