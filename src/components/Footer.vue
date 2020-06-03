@@ -3,18 +3,34 @@
         <nav>
             <ul>
                 <li>CMD METHODS 2020</li>
-                <li><a>About Us</a></li>
-                <li><a>Licensing</a></li>
-                <li><a>Contact Info</a></li>
-                <li><a>Get The Pack</a></li>
-                <li><a>Github</a></li>
-                <li><a>More Info</a></li>
-                <li>Made by CMD Students &#10084;&#65039;</li>
                 <li>
-                    <a><img src="@/assets/logo-hva.png"/></a>
+                    <a>About Us</a>
                 </li>
                 <li>
-                    <a><img src="@/assets/logo-han.png"/></a>
+                    <a>Licensing</a>
+                </li>
+                <li>
+                    <a>Contact Info</a>
+                </li>
+                <li>
+                    <a>Get The Pack</a>
+                </li>
+                <li>
+                    <a>Github</a>
+                </li>
+                <li>
+                    <a>More Info</a>
+                </li>
+                <li>Made by CMD Students &#10084;&#65039;</li>
+                <li>
+                    <a href="https://www.cmd-amsterdam.nl/" target="_blank">
+                        <img src="@/assets/logo-hva.png" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.han.nl/" target="_blank">
+                        <img src="@/assets/logo-han.png" />
+                    </a>
                 </li>
             </ul>
         </nav>
