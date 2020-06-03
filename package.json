@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "concurrently \"vue-cli-service serve\" \"nodemon server/index.js\"",
+    "serve": "concurrently -r \"vue-cli-service serve\" \"nodemon server/index.js\"",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "postinstall": "npm run build",
