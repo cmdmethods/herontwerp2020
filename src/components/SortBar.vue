@@ -2,29 +2,29 @@
     <div class="sort-bar">
         <ul>
             <li>
-                <button><category-icon v-for="category in categories" :key="category.id" :title="category.title"></category-icon></button>
+                <button><category-icon v-for="category in categories" :key="category.id" :name="category.name"></category-icon></button>
             </li>
             <li>
-                <button><category-icon v-for="category in categories" :key="category.id" :title="category.title"></category-icon></button>
+                <button><category-icon v-for="category in categories" :key="category.id" :name="category.name"></category-icon></button>
             </li>
             <li>
-                <button><category-icon v-for="category in categories" :key="category.id" :title="category.title"></category-icon></button>
+                <button><category-icon v-for="category in categories" :key="category.id" :name="category.name"></category-icon></button>
             </li>
             <li>
-                <button><category-icon v-for="category in categories" :key="category.id" :title="category.title"></category-icon></button>
+                <button><category-icon v-for="category in categories" :key="category.id" :name="category.name"></category-icon></button>
             </li>
             <li>
-                <button><category-icon v-for="category in categories" :key="category.id" :title="category.title"></category-icon></button>
+                <button><category-icon v-for="category in categories" :key="category.id" :name="category.name"></category-icon></button>
             </li>
             <li>
-                <button><category-icon v-for="category in categories" :key="category.id" :title="category.title"></category-icon></button>
+                <button><category-icon v-for="category in categories" :key="category.id" :name="category.name"></category-icon></button>
             </li>
         </ul>
     </div>
 </template>
 
 <script>
-import Icon from '@/components/Icon.vue'
+import Icon from '@/components/CategoryIcon.vue'
 import categories from '@/data/categories.json'
 
 export default {
