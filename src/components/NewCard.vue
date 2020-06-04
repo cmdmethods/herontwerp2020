@@ -1,8 +1,10 @@
 <template>
     <div class="new-card">
-        <div class="circle">
-            <img src="@/assets/plus-icon.png" />
-        </div>
+        <button>
+            <div class="circle">
+                <img src="@/assets/plus-icon.png" />
+            </div>
+        </button>
         <p>Add New Card</p>
     </div>
 </template>
@@ -46,5 +48,11 @@ p {
     font-family: var(--font-header-card);
     margin: 0.625rem 0 0 0;
     color: #414144;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
 </style>
