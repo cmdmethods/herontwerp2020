@@ -1,10 +1,16 @@
 <template>
-    <div class="planner"></div>
+    <div class="planner">
+        <Header />
+        <div class="project-section"></div>
+    </div>
 </template>
 
 <script>
+import Header from '@/components/Header.vue'
+
 export default {
-    name: 'Planner'
+    name: 'Planner',
+    components: { Header }
 }
 </script>
 
