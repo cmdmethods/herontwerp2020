@@ -1,7 +1,12 @@
 <template>
     <div class="home">
         <Header />
-
+        <div class="more-info-section">
+            <MoreInfo v-for="info in info" :key="info.id" :title="info.title" :text="info.text" />
+        </div>
+        <div>
+            <Sort v-bind="category" />
+        </div>
         <div class="category" v-for="category in cardsGrouped" :key="category.id">
             <CategoryHeader v-bind="category" />
 
@@ -19,10 +24,11 @@ import info from '@/data/info.json'
 import Header from '@/components/Header.vue'
 import Card from '@/components/Card.vue'
 import CategoryHeader from '@/components/CategoryHeader.vue'
+import MoreInfo from '@/components/MoreInfo.vue'
 
 export default {
     name: 'Home',
-    components: { Header, Card, CategoryHeader },
+    components: { Header, Card, CategoryHeader, MoreInfo },
     computed: {
         info() {
             return info
@@ -38,6 +44,11 @@ export default {
 </script>
 
 <style scoped>
+.more-info-section {
+    display: flex;
+    justify-content: center;
+}
+
 .category {
     margin: 4rem auto;
     max-width: 1130px;
