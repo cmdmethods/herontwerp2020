@@ -48,6 +48,8 @@ footer {
     width: 100%;
     height: 1.8125rem;
     margin: 0 0 2.8125rem 0;
+    position: absolute;
+    bottom: 0;
 }
 
 ul {
