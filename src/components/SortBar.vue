@@ -37,7 +37,7 @@ export default {
 <style scoped>
 .observer-helper {
     margin: 0 auto;
-    padding-top: 64px; /* header height */
+    padding-top: 52px; /* header height */
     margin-top: -64px; /* header height */
     position: sticky;
     top: -1px;
@@ -63,7 +63,7 @@ export default {
 
 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
     margin: 0;
