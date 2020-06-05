@@ -31,6 +31,7 @@ h1 {
     padding-right: 1em;
     display: flex;
     align-items: center;
+    font-weight: 300;
 }
 
 i {
