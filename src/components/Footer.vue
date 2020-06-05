@@ -16,7 +16,7 @@
                     <a>Get The Pack</a>
                 </li>
                 <li>
-                    <a>Github</a>
+                    <a href="https://github.com/cmdmethods/website" target="_blank">Github</a>
                 </li>
                 <li>
                     <a>More Info</a>
@@ -48,6 +48,7 @@ footer {
     width: 100%;
     height: 1.8125rem;
     margin: 0 0 2.8125rem 0;
+    padding-top: 1rem;
 }
 
 ul {
@@ -58,11 +59,12 @@ ul {
     list-style: none;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 0.875rem;
-    color: #414144;
 }
 
 a {
     cursor: pointer;
+    text-decoration: none;
+    color: #414144;
 }
 
 li:first-child {
