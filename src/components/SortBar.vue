@@ -1,48 +1,64 @@
 <template>
-    <div class="sort-bar">
-        <ul>
-            <li>
-                <button><category-icon v-for="category in categories" :key="category.id" :name="category.name"></category-icon></button>
-            </li>
-            <li>
-                <button><category-icon v-for="category in categories" :key="category.id" :name="category.name"></category-icon></button>
-            </li>
-            <li>
-                <button><category-icon v-for="category in categories" :key="category.id" :name="category.name"></category-icon></button>
-            </li>
-            <li>
-                <button><category-icon v-for="category in categories" :key="category.id" :name="category.name"></category-icon></button>
-            </li>
-            <li>
-                <button><category-icon v-for="category in categories" :key="category.id" :name="category.name"></category-icon></button>
-            </li>
-            <li>
-                <button><category-icon v-for="category in categories" :key="category.id" :name="category.name"></category-icon></button>
-            </li>
-        </ul>
+    <div class="observer-helper" ref="searchBar">
+        <nav class="sort-bar">
+            <ul>
+                <li v-for="category in categories" :key="category.id">
+                    <a :href="`#${category.id}`"><CategoryIcon :category="category.id"></CategoryIcon></a>
+                </li>
+            </ul>
+        </nav>
     </div>
 </template>
 
 <script>
-import Icon from '@/components/CategoryIcon.vue'
+import CategoryIcon from '@/components/CategoryIcon.vue'
 import categories from '@/data/categories.json'
 
 export default {
     name: 'SortBar',
-    components: { 'category-icon': Icon },
+    components: { CategoryIcon },
     computed: {
         categories() {
             return categories
         }
+    },
+    mounted() {
+        const navEl = this.$refs.searchBar
+        this.observer = new IntersectionObserver(([e]) => e.target.classList.toggle('is-sticky', e.intersectionRatio < 1), { threshold: [1] })
+
+        this.observer.observe(navEl)
+    },
+    beforeDestroy() {
+        this.observer.disconnect()
     }
 }
 </script>
 
 <style scoped>
+.observer-helper {
+    margin: 0 auto;
+    padding-top: 64px; /* header height */
+    margin-top: -64px; /* header height */
+    position: sticky;
+    top: -1px;
+    z-index: 3;
+}
+
 .sort-bar {
+    margin: 0 auto;
     background-color: #ffffff;
     width: 36.76rem;
     height: 5.805rem;
+    border-radius: 3px;
+    padding: 0 1.3rem 0 1rem;
+    box-shadow: 0;
+    transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: box-shadow, width;
+}
+
+.is-sticky .sort-bar {
+    width: 450px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 ul {
@@ -52,9 +68,7 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    width: 36.76rem;
-    height: 5.805rem;
-    padding: 0 1.3rem 0 1rem;
+    height: 100%;
 }
 
 button {
