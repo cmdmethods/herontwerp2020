@@ -48,7 +48,7 @@ export default {
 .more-info-section {
     display: flex;
     justify-content: center;
-    margin: 5rem auto;
+    margin: 2rem auto;
     max-width: 70.625rem;
 }
 
@@ -56,7 +56,7 @@ export default {
     margin: 4rem auto;
     max-width: 1130px;
     margin-bottom: 0;
-    padding-top: 4rem;
+    padding-top: 1rem;
 }
 
 .category:first-of-type {
@@ -67,6 +67,6 @@ export default {
     display: grid;
     grid-template-columns: repeat(auto-fit, 15rem);
     justify-content: space-around;
-    grid-gap: 3rem;
+    grid-gap: 2rem;
 }
 </style>
