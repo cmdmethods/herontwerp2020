@@ -4,7 +4,10 @@
         <div class="more-info-section">
             <MoreInfo v-for="info in info" :key="info.id" :title="info.title" :text="info.text" />
         </div>
-        <div class="category" v-for="category in cardsGrouped" :key="category.id">
+
+        <SortBar />
+
+        <div class="category" v-for="category in cardsGrouped" :key="category.id" :id="category.id">
             <CategoryHeader v-bind="category" />
 
             <div class="grid">
@@ -22,10 +25,11 @@ import Header from '@/components/Header.vue'
 import Card from '@/components/Card.vue'
 import CategoryHeader from '@/components/CategoryHeader.vue'
 import MoreInfo from '@/components/MoreInfo.vue'
+import SortBar from '@/components/SortBar.vue'
 
 export default {
     name: 'Home',
-    components: { Header, Card, CategoryHeader, MoreInfo },
+    components: { Header, Card, CategoryHeader, MoreInfo, SortBar },
     computed: {
         info() {
             return info
@@ -51,6 +55,12 @@ export default {
 .category {
     margin: 4rem auto;
     max-width: 1130px;
+    margin-bottom: 0;
+    padding-top: 4rem;
+}
+
+.category:first-of-type {
+    margin-top: 0;
 }
 
 .grid {
