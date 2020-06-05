@@ -4,6 +4,7 @@
             <ul>
                 <li class="nav-links"><NavLinks></NavLinks></li>
                 <li class="search-bar"><SearchBar></SearchBar></li>
+                <div class="spacer" />
                 <li><NewProjectButton></NewProjectButton></li>
                 <li class="profile-icon"><ProfileIcon></ProfileIcon></li>
             </ul>
@@ -29,7 +30,8 @@ header {
     top: 0;
     width: 100%;
     background-color: var(--body-background);
-    z-index: 3;
+    z-index: 4;
+    height: 46px;
 }
 
 nav {
@@ -52,9 +54,16 @@ ul {
     flex-grow: 2;
 }
 
-.search-bar {
+.spacer {
     flex-grow: 2;
     align-self: center;
+}
+
+.search-bar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .profile-icon {
