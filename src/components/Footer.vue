@@ -48,7 +48,7 @@ footer {
     width: 100%;
     height: 1.8125rem;
     margin: 0 0 2.8125rem 0;
-    padding-top: 1rem;
+    padding-top: 6rem;
 }
 
 ul {
@@ -59,6 +59,7 @@ ul {
     list-style: none;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 0.875rem;
+    margin-bottom: 2rem;
 }
 
 a {
