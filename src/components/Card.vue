@@ -38,11 +38,18 @@ export default {
     display: flex;
     flex-direction: column;
     background-color: var(--background-card);
-    width: 15rem;
-    height: 23rem;
+    width: 17.5rem;
+    height: 25.5em;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
     border-radius: 0.5rem;
     padding: 1rem;
+    transition-duration: 0.3s;
+}
+
+.card:hover {
+    filter: drop-shadow(2px 2px 4px #aaa);
+    transform: translateY(-3%);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
 }
 
 .header-container {
@@ -69,7 +76,7 @@ export default {
 img {
     object-fit: contain;
     width: 100%;
-    height: 10rem;
+    height: 11rem;
 }
 
 .text-container {
