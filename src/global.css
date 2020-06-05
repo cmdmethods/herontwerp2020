@@ -9,16 +9,20 @@
     --font-header-card: 'Open Sans Condensed', sans-serif;
     --font-body-card: 'Source Sans Pro', sans-serif;
 
-    --library: #B4D457;
-    --field: #72CBCC;
-    --lab: #898CC4;
-    --showroom: #FFD74D;
-    --workshop: #5CC7EE;
-    --stepping-stones: #F16E9B;
+    --library: #b4d457;
+    --field: #72cbcc;
+    --lab: #898cc4;
+    --showroom: #ffd74d;
+    --workshop: #5cc7ee;
+    --stepping-stones: #f16e9b;
 }
 
 * {
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -77,4 +81,3 @@ body {
 .color-stepping-stones {
     color: var(--stepping-stones);
 }
-
