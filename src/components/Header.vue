@@ -2,8 +2,8 @@
     <header>
         <nav>
             <ul>
-                <li class="nav-links"><NavLinks></NavLinks></li>
-                <li class="search-bar"><SearchBar></SearchBar></li>
+                <li class="nav-links"><NavLinks /></li>
+                <li class="search-bar"><SearchBar :value="searchQuery" @input="$emit('update:searchQuery', $event)" /></li>
                 <div class="spacer" />
                 <li><NewProjectButton></NewProjectButton></li>
                 <li class="profile-icon"><ProfileIcon></ProfileIcon></li>
@@ -20,7 +20,10 @@ import NavLinks from '@/components/NavLinks.vue'
 
 export default {
     name: 'Header',
-    components: { NavLinks, SearchBar, NewProjectButton, ProfileIcon }
+    components: { NavLinks, SearchBar, NewProjectButton, ProfileIcon },
+    props: {
+        searchQuery: String
+    }
 }
 </script>
 

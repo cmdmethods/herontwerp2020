@@ -1,12 +1,25 @@
 <template>
     <div class="search-container">
-        <input type="search" placeholder="Search Cards" />
+        <input @input="onSearch" :value="value" type="search" placeholder="Search Cards" />
     </div>
 </template>
 
 <script>
+import { debounce } from 'lodash'
+
 export default {
-    name: 'SearchBar'
+    name: 'SearchBar',
+    props: {
+        value: String
+    },
+    methods: {
+        onSearch(event) {
+            this.$emit('input', event.target.value)
+        }
+    },
+    created() {
+        this.onSearch = debounce(this.onSearch, 400)
+    }
 }
 </script>
 
