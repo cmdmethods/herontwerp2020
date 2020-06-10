@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Planner from '../views/Planner.vue'
+import CmdMethods from '../views/CmdMethods.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ const routes = [
         path: '/planner',
         name: 'Planner',
         component: Planner
+    },
+    {
+        path: '/cmd-methods',
+        name: 'What is CMD Methods?',
+        component: CmdMethods
     }
 ]
 
