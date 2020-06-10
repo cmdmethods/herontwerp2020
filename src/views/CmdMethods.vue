@@ -52,23 +52,31 @@
                     <p>{{ cmdmethod.howTo.text }}</p>
                     <h3>Negative Selection</h3>
                     <ul>
-                        <li>{{ cmdmethod.howTo.negativeSelection.stepOne }}</li>
-                        <li>{{ cmdmethod.howTo.negativeSelection.stepTwo }}</li>
-                        <li>{{ cmdmethod.howTo.negativeSelection.stepThree }}</li>
+                        <li><span></span>{{ cmdmethod.howTo.negativeSelection.stepOne }}</li>
+                        <li><span></span>{{ cmdmethod.howTo.negativeSelection.stepTwo }}</li>
+                        <li><span></span>{{ cmdmethod.howTo.negativeSelection.stepThree }}</li>
                     </ul>
                     <h3>Triangulation</h3>
                     <ul>
-                        <li>{{ cmdmethod.howTo.triangulation.stepOne }}</li>
-                        <li>{{ cmdmethod.howTo.triangulation.stepTwo }}</li>
-                        <li>{{ cmdmethod.howTo.triangulation.stepThree }}</li>
-                        <li>{{ cmdmethod.howTo.triangulation.stepFour }}</li>
+                        <li><span></span>{{ cmdmethod.howTo.triangulation.stepOne }}</li>
+                        <li><span></span>{{ cmdmethod.howTo.triangulation.stepTwo }}</li>
+                        <li><span></span>{{ cmdmethod.howTo.triangulation.stepThree }}</li>
+                        <li><span></span>{{ cmdmethod.howTo.triangulation.stepFour }}</li>
                     </ul>
                     <h3>Foursome games</h3>
                     <ul>
-                        <li>{{ cmdmethod.howTo.foursomeGame.stepOne }}</li>
-                        <li>{{ cmdmethod.howTo.foursomeGame.stepTwo }}</li>
-                        <li>{{ cmdmethod.howTo.foursomeGame.stepThree }}</li>
-                        <li>{{ cmdmethod.howTo.foursomeGame.stepFour }}</li>
+                        <li>
+                            <span>{{ cmdmethod.howTo.foursomeGame.stepOne }}</span>
+                        </li>
+                        <li>
+                            <span>{{ cmdmethod.howTo.foursomeGame.stepTwo }}</span>
+                        </li>
+                        <li>
+                            <span>{{ cmdmethod.howTo.foursomeGame.stepThree }}</span>
+                        </li>
+                        <li>
+                            <span>{{ cmdmethod.howTo.foursomeGame.stepFour }}</span>
+                        </li>
                     </ul>
                 </article>
             </article>
@@ -144,14 +152,19 @@ p {
 }
 
 ul {
-    list-style-type: number;
+    list-style-type: decimal;
     padding: 0;
     margin-bottom: 29px;
+    list-style-position: inside;
 }
 
 li {
     margin-bottom: 13px;
     font-weight: 300;
+}
+
+span {
+    margin-left: 10px;
 }
 
 .cmdmethods-info article {
