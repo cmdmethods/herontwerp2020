@@ -1,7 +1,7 @@
 <template>
     <div class="link-container">
         <a>CMD Methods</a>
-        <a>What is CMD Methods?</a>
+        <a href="/cmd-methods">What is CMD Methods?</a>
     </div>
 </template>
 
@@ -17,6 +17,7 @@ a {
     font-size: 0.875rem;
     color: #414144;
     cursor: pointer;
+    text-decoration: none;
 }
 
 a:nth-child(2) {

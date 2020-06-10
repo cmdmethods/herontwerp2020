@@ -6,7 +6,7 @@
         <div class="text-container">
             <h1>{{ title }}</h1>
             <p>{{ text }}</p>
-            <a>See how CMD Methods works</a>
+            <a href="/cmd-methods">See how CMD Methods works</a>
         </div>
     </div>
 </template>
@@ -67,5 +67,6 @@ a {
     color: white;
     font-weight: 600;
     border-radius: 3px;
+    text-decoration: none;
 }
 </style>
