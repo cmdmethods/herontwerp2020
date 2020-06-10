@@ -1,6 +1,6 @@
 <template>
     <div class="link-container">
-        <a>CMD Methods</a>
+        <a href="/">CMD Methods</a>
         <a href="/cmd-methods">What is CMD Methods?</a>
     </div>
 </template>
