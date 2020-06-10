@@ -167,7 +167,9 @@
                 "An ability to separate hypes from structural changes."
             ],
             "practice": "A trend analysis is oftentimes used to convince clients of the novelty and timeliness of a design. Some companies employ trend spotters who get time to bring in new developments as a form of strategic company planning. ",
-            "resources": ["<cite>The Delft Design Guide</cite> spends a couple of pages about trend analysis, pointing to several other sources  p58-59"],
+            "resources": [
+                "<cite>The Delft Design Guide</cite> spends a couple of pages about trend analysis, pointing to several other sources  p58-59"
+            ],
             "sliders": {
                 "inspiration_data": 25,
                 "expertise_fit": 5,
@@ -473,7 +475,11 @@
         "info": {
             "why": "A minor change in a design may alter user behaviour in ways that are hard to detect in a usability test. An A/B test allows you to compare real-world user behaviour across different versions of the product.",
             "how": "In an A/B test the user is confronted with one or two versions of an interactive product. Remote software records metrics for user behaviour. These metrics are compared between the two versions to see which alternative is better. Sometimes more than two alternatives are tested: A/B/X testing.",
-            "ingredients": ["Specialized software.", "Reliable metrics.", "A large amount of users. "],
+            "ingredients": [
+                "Specialized software.",
+                "Reliable metrics.",
+                "A large amount of users. "
+            ],
             "practice": "Google does a lot of A/B testing on its search services. The tiniest details can count for Google because they have so many users. Some companies also use the A/B experimental design for testing concepts, rather than finished products.",
             "resources": [
                 "<cite>Universal Methods of Design</cite> (Hanington & Martin, 2012). Spends a couple of pages about A/B tests. In the Dutch version chapter 1. P8-9",
@@ -548,7 +554,12 @@
         "info": {
             "why": "Gain insights from real usage statistics in order to continue improving a website, app or social media campaign after it is in use, or monitor it’s use for marketing purposes. ",
             "how": "Analytics software can monitor user behaviour in terms of basic demographics (where do users come from) and onsite behaviour (duration of visits and clicks). By analysing these statistics you can identify weak points in the website, app or online marketing campaign or you can compare them to key performance indicators (KPI's). ",
-            "ingredients": ["Analytic software.", "An analytic mind-set.", "Knowledge about statistics and SEO.", "Key performance indicators (KPI's)."],
+            "ingredients": [
+                "Analytic software.",
+                "An analytic mind-set.",
+                "Knowledge about statistics and SEO.",
+                "Key performance indicators (KPI's)."
+            ],
             "practice": "There are companies specializing in online analytics consultancy and search engine optimization. Many small companies do their own online analytics. ",
             "resources": [
                 "<cite>Universal Methods of Design</cite> (Hanington & Martin, 2012) spends a couple of pages on  webanalytics. In the Dutch version chapter 97. P200-201",
@@ -570,7 +581,11 @@
         "info": {
             "why": "Understand the reasons behind user behaviour, or uncover the mental models of the user in a usability test.",
             "how": "Ask users to think aloud (say everything they are thinking) while performing a task in a usability test. As thinking aloud is quite unnatural, you remind users regularly to keep on voicing his/her thoughts. Since children are bad at voicing their thoughts, this technique can only be applied from the early teens on.",
-            "ingredients": ["Put the user at ease.", "Remind the user regularly to think aloud.", "A usability setup, including tasks."],
+            "ingredients": [
+                "Put the user at ease.",
+                "Remind the user regularly to think aloud.",
+                "A usability setup, including tasks."
+            ],
             "practice": "The thinking aloud protocol is standard practice in usability testing, but can also be used in other situations to better understand the user's mental model.",
             "resources": [
                 "<cite>Universal Methods of Design</cite> (Hanington & Martin, 2012) spends a couple of pages on  thinking aloud. In the Dutch version chapter 87. P180-181",
@@ -592,7 +607,11 @@
         "info": {
             "why": "Detect problems users have with your design and correct these before the product goes live. ",
             "how": "It is impossible to get the design right in one go, no matter how much experience you have. Ask a small group of users to perform tasks with a (paper) prototype of your solution. Typically users are asked to think aloud so you can grasp what the user is thinking. In a formative user test the goal is to detect as many problems as possible users are encountering using the site. In a summative user test user behaviour is tested against pre-set goals.",
-            "ingredients": ["A (paper) prototype.", "A quiet room with the user or a usability lab.", "Recording equipment."],
+            "ingredients": [
+                "A (paper) prototype.",
+                "A quiet room with the user or a usability lab.",
+                "Recording equipment."
+            ],
             "practice": "Usability testing is common practice in many design firms, although sometimes placeholders are used rather than ‘real’ end-users. ",
             "resources": [
                 "<cite>Universal methods of design</cite>  (Martin & Hannington , 2012) spend a couple of pages about usability testing. In the Dutch version: chapter 94, p194-195",
@@ -695,7 +714,12 @@
         "info": {
             "why": "Complementary to user research, or when user research is too costly, a heuristic evaluation can be used to detect and repair usability errors. ",
             "how": "Usability experts are given detailed instructions or tasks, a set of usability guidelines, and a reporting format. The experts analyse a product for violations of the guidelines and suggest improvements to the product.",
-            "ingredients": ["A group of usability experts.", "Usability guidelines.", "A reporting format.", "A testable product or prototype."],
+            "ingredients": [
+                "A group of usability experts.",
+                "Usability guidelines.",
+                "A reporting format.",
+                "A testable product or prototype."
+            ],
             "practice": "Many product quality reviews are a lightweight form of heuristic evaluation. Working with explicit heuristics and standardized reporting forms however, can greatly improve this practice.",
             "resources": [
                 "A basic websource on heuristic evaluation is found on the webpage of the Norman Nielsen group: <a href=\"https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/\">https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/</a>",

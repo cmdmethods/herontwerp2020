@@ -1,0 +1,74 @@
+[
+    {
+        "id": "cmd-methods",
+        "intro": "Choosing methods can be difficult. There are many different design research methods and just as many reasons why one method may be better suited for your project than others. The Development Oriented Triangulation (DOT) – Framework offers a good way to understand the differences and similarities between many design research methods. This cmdmethods card set and the DOT-framework form a perfect couple. Understanding the framework will help you to use the card set in a better way and the card set aids your understanding of the framework. In this mini-manual we give a brief introduction to the DOT-Framework and the use of this card set.",
+        "strategies": "So during a project you try to learn as much as you can about the context of available work, the application context and the innovation space. What are ways of learning these things? The DOT-Framework has 5 research strategies.",
+        "library": {
+            "name": "Library",
+            "motto": "Stand on the shoulders of giants",
+            "description": {
+                "paragraphOne": "To ensure rigor in your design explore what is already done. Watch what competitors are doing or get an overview of existing guidelines, patterns and theories. Sometimes called deskresearch.",
+                "paragraphTwo": "Library research is done to explore what is already done and what guidelines and theories exist that could help you further your design. Since the advent of the internet library research is also called desk research."
+            }
+        },
+        "field": {
+            "name": "Field",
+            "motto": "Understand your users",
+            "description": {
+                "paragraphOne": "Explore the application context. You apply a field strategy to get an overview of your users, know their needs, desires and limitations so your design is relevant to them.",
+                "paragraphTwo": "Field research is done to explore the application context. You apply a field strategy to get to know your end users, their needs, desires and limitations as organizational and physical contexts in which they will use your product."
+            }
+        },
+        "lab": {
+            "name": "Lab",
+            "motto": "To measure is to know",
+            "description": {
+                "paragraphOne": "Be certain your solution works and is relevant for the end-user. Will your design work out the way you intended it to?",
+                "paragraphTwo": "Lab research is done to test your ideas with the users of your product. You use lab research to learn if things work out the way you intended them."
+            }
+        },
+        "showroom": {
+            "name": "Showroom",
+            "motto": "Know & show your contribution",
+            "description": {
+                "paragraphOne:": "Be certain your ideas are better than what is already done. Proof the rigor of your design by showing it to experts, test against guidelines or decide on its USPs.",
+                "paragraphTwo": "Showroom research is done to test your ideas in relation to existing work. Showing your prototype to experts can be a form of showroom research or spelling out how your product is different from the competition."
+            }
+        },
+        "workshop": {
+            "name": "Workshop",
+            "motto": "Seek variation and improvement!",
+            "description": {
+                "paragraphOne": "Explore opportunities. Prototyping, sketching and co-creation activities are all ways to innovate and to gain insights in what is possible and how things could work.",
+                "paragraphTwo": "Workshop research is done to explore opportunities. Prototyping, sketching and co-creation activities are all ways to gain insights in what is possible and how things could work."
+            }
+        },
+        "steppingStones": {
+            "name": "Stepping Stones",
+            "motto": "Condense, communicate, combine",
+            "description": {
+                "paragraphOne": "Condense your insights into tangible representations that can be re-used in the rest of the project and help to communicate findings to the team and client."
+            }
+        },
+        "howTo": {
+            "text": "You can use this card set in many ways. It is really up to you! But some suggestions may be in place.",
+            "negativeSelection": {
+                "stepOne": "Put all cards in front of you so you can see all cards.",
+                "stepTwo": "Remove half of the cards, which are not applicable for your project for some reason.",
+                "stepThree": "Repeat b until you have a balanced and feasible set of methodcards."
+            },
+            "triangulation": {
+                "stepOne": "Pick one card random from the set.",
+                "stepTwo": "Imagine the type of results you would get from this method at the beginning of the set.",
+                "stepThree": "Choose a card that ensures optimal triangulation (across the tradeoffs).",
+                "stepFour": "Repeat last two steps until you have all the results you need for the project."
+            },
+            "foursomeGame": {
+                "stepOne": "Shake the cards and give each player four cards. The rest of the cards go on a stack.",
+                "stepTwo": "One team member starts playing. If the four cards in his hands do not represent optimal triangulation he tries to exchange a card with a partner by asking for specific card.",
+                "stepThree": "If the player does not have the card. Lay off one card beneath the stack and pick a new one. When laying off the cards, explain why this one has to go.",
+                "stepFour": "Turn is to the next player. Repeat steps until one has four cards which he regards as optimal. He has to defend the optimality of the set to his group."
+            }
+        }
+    }
+]
