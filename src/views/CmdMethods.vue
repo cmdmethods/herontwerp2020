@@ -152,7 +152,6 @@ p {
 }
 
 ul {
-    list-style-type: decimal;
     padding: 0;
     margin-bottom: 29px;
     list-style-position: inside;
@@ -161,6 +160,7 @@ ul {
 li {
     margin-bottom: 13px;
     font-weight: 300;
+    list-style-type: decimal;
 }
 
 span {
