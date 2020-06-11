@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Planner from '../views/Planner.vue'
 import CmdMethods from '../views/CmdMethods.vue'
+import DotFramework from '../views/DotFramework.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
         path: '/cmd-methods',
         name: 'What is CMD Methods?',
         component: CmdMethods
+    },
+    {
+        path: '/dot-framework',
+        name: 'What is DOT-Framework?',
+        component: DotFramework
     }
 ]
 
