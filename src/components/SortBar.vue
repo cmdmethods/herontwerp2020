@@ -48,16 +48,16 @@ export default {
     margin: 0 auto;
     background-color: #ffffff;
     width: 36.76rem;
-    height: 5.805rem;
+    height: 4.2rem;
     border-radius: 3px;
-    padding: 0 1.3rem 0 1rem;
+    padding: 0 0, 5rem;
     box-shadow: 0;
     transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: box-shadow, width;
 }
 
 .is-sticky .sort-bar {
-    width: 450px;
+    width: 400px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 

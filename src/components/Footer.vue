@@ -21,6 +21,8 @@
                 <li>
                     <a>More Info</a>
                 </li>
+            </ul>
+            <ul>
                 <li>Made by CMD Students &#10084;&#65039;</li>
                 <li>
                     <a href="https://www.cmd-amsterdam.nl/" target="_blank">
@@ -51,15 +53,36 @@ footer {
     padding-top: 6rem;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 5rem;
+}
+
 ul {
     align-items: center;
-    padding: 0 3.75rem 0 3.75rem;
+    flex-wrap: wrap;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: flex-start;
     list-style: none;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 0.875rem;
     margin-bottom: 2rem;
+}
+
+ul:last-child {
+    flex-wrap: nowrap;
+}
+
+ul:first-child li {
+    padding-right: 1.5rem;
+}
+
+ul:last-child li {
+    padding-left: 2rem;
 }
 
 a {
@@ -68,12 +91,12 @@ a {
     color: #414144;
 }
 
-li:first-child {
-    font-weight: 600;
+nav:last-child {
+    flex-direction: flex-end;
 }
 
-li:nth-child(7) {
-    margin: 0 22.4375rem 0 0;
+li:first-child {
+    font-weight: 600;
 }
 
 li:nth-child(8) {

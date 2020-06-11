@@ -88,7 +88,7 @@ export default {
 }
 
 .category {
-    padding-top: 1rem;
+    padding-bottom: 5rem;
 }
 
 .category:first-of-type {
