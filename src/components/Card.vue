@@ -94,6 +94,7 @@ p {
     font-family: var(--font-body-card);
     font-size: 0.875rem;
     margin: 0;
+    color: #414144;
     display: -webkit-box;
     -webkit-line-clamp: 6;
     -webkit-box-orient: vertical;

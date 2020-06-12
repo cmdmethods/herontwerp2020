@@ -23,5 +23,10 @@ export default {
     width: 2.25rem;
     height: 2.25rem;
     border-radius: 50%;
+    transistion: 0.2s;
+}
+
+.icon:hover {
+    opacity: 0.7;
 }
 </style>

@@ -20,6 +20,11 @@ export default {
     color: #ffffff;
     font-size: 1rem;
     cursor: pointer;
+    transition: 0.1s;
+}
+
+.new-project-button:hover {
+    opacity: 0.7;
 }
 
 span {

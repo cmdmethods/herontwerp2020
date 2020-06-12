@@ -60,7 +60,7 @@ p {
 a {
     cursor: pointer;
     display: block;
-    width: 20.6rem;
+    width: 20.4rem;
     height: 3.8675rem;
     padding: 1.1875rem 4rem 1.1875rem 4rem;
     background-color: #676769;
@@ -68,5 +68,10 @@ a {
     font-weight: 500;
     border-radius: 3px;
     text-decoration: none;
+    transition: 0.1s;
+}
+
+a:hover {
+    background-color: #a0a0a2;
 }
 </style>
