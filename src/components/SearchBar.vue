@@ -39,4 +39,27 @@ input {
 input:hover {
     background-color: #d9d9da;
 }
+
+input:focus::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #ececed;
+}
+input:focus:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #ececed;
+    opacity: 1;
+}
+input:focus::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #ececed;
+    opacity: 1;
+}
+input:focus:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #ececed;
+}
+
+input:focus:hover {
+    background-color: #ececed;
+}
 </style>
