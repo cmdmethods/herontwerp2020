@@ -58,7 +58,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
-    padding: 0 5rem;
+    padding: 0 5rem 0 1.5rem;
 }
 
 ul {
