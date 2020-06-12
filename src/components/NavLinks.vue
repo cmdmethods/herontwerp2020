@@ -21,6 +21,10 @@ a {
     text-decoration: none;
 }
 
+a:first-child {
+    font-weight: 600;
+}
+
 a:nth-child(2) {
     margin: 0 0 0 1.25rem;
     color: #545457;
@@ -29,5 +33,9 @@ a:nth-child(2) {
 a:nth-child(3) {
     margin: 0 0 0 1.25em;
     color: #545457;
+}
+
+a:hover {
+    color: #a0a0a2;
 }
 </style>

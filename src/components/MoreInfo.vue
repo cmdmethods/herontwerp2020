@@ -60,7 +60,7 @@ p {
 a {
     cursor: pointer;
     display: block;
-    width: 20.4rem;
+    width: 20.3rem;
     height: 3.8675rem;
     padding: 1.1875rem 4rem 1.1875rem 4rem;
     background-color: #676769;

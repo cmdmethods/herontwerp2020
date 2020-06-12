@@ -91,6 +91,10 @@ a {
     color: #414144;
 }
 
+a:hover {
+    color: #a0a0a2;
+}
+
 nav:last-child {
     flex-direction: flex-end;
 }

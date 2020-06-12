@@ -35,4 +35,8 @@ input {
     text-align: center;
     background-repeat: no-repeat;
 }
+
+input:hover {
+    background-color: #d9d9da;
+}
 </style>
