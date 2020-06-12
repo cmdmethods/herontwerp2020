@@ -19,7 +19,8 @@ export default {
 
 <style scoped>
 .category-header {
-    width: 100%;
+    width: 98%;
+    margin: 0 0.5rem;
     position: relative;
 }
 
@@ -35,7 +36,6 @@ h1 {
 }
 
 i {
-    font-weight: 400;
     font-size: 1rem;
     margin-left: 1em;
 }

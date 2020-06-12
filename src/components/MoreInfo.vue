@@ -60,12 +60,12 @@ p {
 a {
     cursor: pointer;
     display: block;
-    width: 21.980625rem;
+    width: 20.6rem;
     height: 3.8675rem;
     padding: 1.1875rem 4rem 1.1875rem 4rem;
     background-color: #676769;
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 3px;
     text-decoration: none;
 }

@@ -16,7 +16,7 @@ export default {
     border: none;
     border-radius: 3px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     color: #ffffff;
     font-size: 1rem;
     cursor: pointer;

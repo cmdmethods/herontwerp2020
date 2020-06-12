@@ -77,13 +77,13 @@ export default {
 .more-info-section {
     display: flex;
     justify-content: center;
-    margin: 2rem auto;
+    margin: 4rem auto;
     max-width: 70.625rem;
 }
 
 .cards {
     margin: 4rem auto;
-    max-width: 1130px;
+    max-width: 72rem;
     margin-bottom: 0;
 }
 
@@ -97,8 +97,8 @@ export default {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 15rem);
+    grid-template-columns: repeat(auto-fit, 17.5rem);
     justify-content: space-around;
-    grid-gap: 2rem;
+    grid-gap: 1rem 0.2rem;
 }
 </style>

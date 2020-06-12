@@ -58,6 +58,7 @@ export default {
 
 .is-sticky .sort-bar {
     width: 400px;
+    padding: 0 0.5rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
