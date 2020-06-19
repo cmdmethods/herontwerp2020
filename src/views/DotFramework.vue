@@ -81,6 +81,7 @@ export default {
     font-weight: normal;
     margin: 70px 0 50px 0;
     text-align: center;
+    color: #414144;
 }
 
 .main h2 {
