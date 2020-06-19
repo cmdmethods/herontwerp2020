@@ -8,41 +8,33 @@
             <img class="method-image" src="/card-images/lib-literature-study.png" />
             <img class="method-stats" src="/card-images/lib-literature-study-stats.png" />
         </div>
-        <div class="text-container">
+        <div class="text-container" v-for="card in cards" :key="card.id" v-bind="card">
             <div class="section-two">
                 <h2>Why?</h2>
-                <p>Existing products in your niche can be a valuable reference and source of inspiration.</p>
+                <p>{{ card.info.why }}</p>
                 <h2>How?</h2>
-                <p>
-                    Scout for products that are somehow related to your design goal. These could be products that solve the same problem or adopt a similar
-                    solution strategy. Create a structured overview of these products for example by clustering them into meaningful categories; creating a
-                    landscape of alternatives. Benchmarking may serve as a more extensive and neutral alternative to competitive analysis
-                </p>
+                <p>{{ card.info.how }}</p>
             </div>
             <div class="section-three">
                 <h2>Ingredients</h2>
+                <!--
+                    <li v-for="ingredient in card.ingredients">{{ ingredient }}</li>
+                -->
                 <ul>
-                    <li>A collector’s attitude.</li>
-                    <li>An ability to focus out of your niche.</li>
-                    <li>The patience to create multiple clusters and give meaning to them.</li>
+                    <li v-for="card in cards" :key="card.info.ingredients">{{ card.info.ingredients }}</li>
                 </ul>
                 <h2>In practice</h2>
-                <p>
-                    When designing an app that gives users personalised advice about new music artists, a benchmark shows information from similar websites or
-                    apps. The benchmark also compares solutions that give personalised advice about other topics, like books or travelling for example that
-                    could be inspiring.
-                </p>
+                <p>{{ card.info.practice }}</p>
             </div>
             <div class="section-four">
                 <h2>Useful resources</h2>
-                <p>
-                    <cite>Universal methods of design</cite> (Martin & Hannington , 2012) spend a couple of pages about competitive analysis. In the dutch
-                    version: chapter 15, p36-37
-                </p>
+                <p>{{ card.info.resources }}</p>
             </div>
         </div>
         <div class="button-container">
-            <button classs="exit"><img src="@/assets/x-button.png" /></button>
+            <button class="exit" @click="$emit('close')">
+                <img src="@/assets/x-button.png" />
+            </button>
         </div>
     </div>
 </template>
@@ -52,19 +44,15 @@ import cards from '@/data/cards.json'
 import CategoryIcon from '@/components/CategoryIcon.vue'
 
 export default {
-    name: 'Detail card',
+    name: 'DetailCard',
     components: { CategoryIcon },
     props: {
-        name: String,
-        description: String,
-        image: String,
-        category: String,
-        info: String,
-        why: String
+        cardId: String,
+        info: String
     },
     computed: {
-        cards() {
-            return cards
+        card() {
+            return cards.find(card => card.id === this.cardId)
         }
     }
 }
