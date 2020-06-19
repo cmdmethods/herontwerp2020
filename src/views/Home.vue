@@ -10,7 +10,7 @@
         <div class="cards">
             <template v-if="hasSearch">
                 <div class="grid">
-                    <Card v-for="card in cardsSearchResult" :key="card.id" v-bind="card" />
+                    <Card @click="activateCard(card.id)" v-for="card in cardsSearchResult" :key="card.id" v-bind="card" />
                 </div>
             </template>
 
@@ -18,10 +18,12 @@
                 <CategoryHeader v-bind="category" />
 
                 <div class="grid">
-                    <Card v-for="card in category.cards" :key="card.id" v-bind="card" />
+                    <Card @click="activateCard(card.id)" v-for="card in category.cards" :key="card.id" v-bind="card" />
                 </div>
             </div>
         </div>
+
+        <DetailCard v-if="cardActive" :card-id="currentActiveCardId" @close="cardActive = false" />
     </div>
 </template>
 
@@ -35,13 +37,16 @@ import CategoryHeader from '@/components/CategoryHeader.vue'
 import MoreInfo from '@/components/MoreInfo.vue'
 import SortBar from '@/components/SortBar.vue'
 import Fuse from 'fuse.js'
+import DetailCard from '@/components/DetailCard.vue'
 
 export default {
     name: 'Home',
-    components: { Header, Card, CategoryHeader, MoreInfo, SortBar },
+    components: { Header, Card, CategoryHeader, MoreInfo, SortBar, DetailCard },
     data() {
         return {
-            searchQuery: ''
+            searchQuery: '',
+            cardActive: false,
+            currentActiveCardId: null
         }
     },
     computed: {
@@ -69,6 +74,12 @@ export default {
         this.fuse = new Fuse(cards, {
             keys: ['name', 'description']
         })
+    },
+    method: {
+        activateCard(cardId) {
+            this.currentActiveCardId = cardId
+            this.cardActive = true
+        }
     }
 }
 </script>
